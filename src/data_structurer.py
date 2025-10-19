@@ -19,8 +19,9 @@ def structure_extraction_results(
     """
     issues = extract_inspection_issues(text_blocks)
     
-    # Link images to issues
-    link_images_to_issues(issues, images)
+    # Link images to issues (skip if no images)
+    if images:
+        link_images_to_issues(issues, images)
     
     # Extract cost estimates from tables
     extract_cost_estimates(issues, tables)
@@ -272,8 +273,9 @@ def validate_extraction(report: StructuredReport) -> bool:
     if not report.metadata.property_address:
         print("Warning: No property address found")
     
-    if not report.images:
-        print("Warning: No images extracted")
+    # Image extraction is disabled
+    # if not report.images:
+    #     print("Warning: No images extracted")
     
     # Check for reasonable number of issues
     if len(report.issues) < 5:

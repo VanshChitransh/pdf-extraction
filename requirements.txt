@@ -1,14 +1,20 @@
 # Core PDF processing libraries
 PyPDF2==3.0.1
 pdfplumber==0.10.3
-pdf2image==1.16.3
-
-# Image processing and OCR
-Pillow>=9.0.0
-pytesseract==0.3.10
 
 # Data handling
 dataclasses-json==0.6.3
 
 # Utilities
 python-dateutil==2.8.2
+
+# AI Integration
+google-generativeai>=0.3.0
+
+# PDF Generation
+reportlab>=4.0.0
+Pillow>=10.0.0
+
+# Configuration and Retry Logic
+python-dotenv>=1.0.0
+tenacity>=8.2.0

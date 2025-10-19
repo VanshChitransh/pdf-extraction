@@ -43,7 +43,6 @@ def process_multiple_pdfs(pdf_directory=".", output_dir="./batch_output"):
                 'issues': len(report.issues),
                 'deficient': len([i for i in report.issues if i.status == 'D']),
                 'tables': len(report.tables),
-                'images': len(report.images),
                 'address': report.metadata.property_address
             }
             results.append(result)

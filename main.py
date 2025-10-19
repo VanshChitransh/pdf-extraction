@@ -48,7 +48,6 @@ def main():
         print(f"Report Type: {report.metadata.report_type}")
         print(f"Property Address: {report.metadata.property_address}")
         print(f"Issues Found: {len(report.issues)}")
-        print(f"Images Extracted: {len(report.images)}")
         print(f"Tables Extracted: {len(report.tables)}")
         
         # Issues by status

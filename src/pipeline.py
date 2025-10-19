@@ -10,7 +10,7 @@ from .models import StructuredReport
 from .metadata_extractor import extract_metadata, extract_additional_metadata
 from .text_extractor import extract_structured_text, group_text_by_section
 from .table_extractor import extract_tables
-from .image_extractor import extract_images_with_context
+# from .image_extractor import extract_images_with_context  # Image extraction disabled
 from .data_structurer import structure_extraction_results, validate_extraction, get_extraction_summary
 
 
@@ -62,10 +62,9 @@ class PDFExtractionPipeline:
             self.logger.info("→ Extracting tables...")
             tables = extract_tables(pdf_path)
             
-            # Step 4: Images
-            self.logger.info("→ Extracting images with context...")
-            image_dir = os.path.join(self.output_dir, "images", metadata.filename.replace('.pdf', ''))
-            images = extract_images_with_context(pdf_path, image_dir)
+            # Step 4: Images (disabled)
+            self.logger.info("→ Skipping image extraction (disabled)...")
+            images = []  # Image extraction disabled
             
             # Step 5: Structure
             self.logger.info("→ Structuring data...")
@@ -165,7 +164,6 @@ def main():
             report = pipeline.process_pdf(pdf_path)
             print(f"Successfully processed {pdf_path}")
             print(f"Extracted {len(report.issues)} issues")
-            print(f"Extracted {len(report.images)} images")
             print(f"Extracted {len(report.tables)} tables")
         except Exception as e:
             print(f"Error processing {pdf_path}: {e}")
