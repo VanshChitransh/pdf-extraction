@@ -42,7 +42,7 @@ def main():
         for issue in report.issues:
             status_counts[issue.status] = status_counts.get(issue.status, 0) + 1
         
-        print(f"\nIssues by Status:")
+        print(f"Issues by Status:")
         for status, count in status_counts.items():
             print(f"  {status}: {count}")
         
@@ -51,7 +51,7 @@ def main():
         for issue in report.issues:
             priority_counts[issue.priority] = priority_counts.get(issue.priority, 0) + 1
         
-        print(f"\nIssues by Priority:")
+        print(f"Issues by Priority:")
         for priority, count in priority_counts.items():
             print(f"  {priority}: {count}")
         
@@ -64,6 +64,8 @@ def main():
                 print(f"   Section: {issue.section}")
                 print(f"   Priority: {issue.priority}")
                 print(f"   Pages: {issue.page_numbers}")
+                if issue.related_images:
+                    print(f"   Images: {len(issue.related_images)}")
                 print()
         
         # Display high priority issues
@@ -87,6 +89,10 @@ def main():
         print(f"Table Types:")
         for table_type, count in table_types.items():
             print(f"  {table_type}: {count}")
+        
+        # Display images summary
+        print(f"\nIMAGES SUMMARY:")
+        print(f"Total Images: {len(report.images)}")
         
         # Show sample table data
         if report.tables:

@@ -7,21 +7,40 @@ A comprehensive Python pipeline for extracting structured data from PDF inspecti
 - **Metadata Extraction**: Automatically extracts report metadata including property address, inspection date, and report number
 - **Structured Text Extraction**: Preserves hierarchical structure (sections, subsections) and formatting information
 - **Table Extraction**: Intelligently extracts and classifies tables (cost estimates, elevation surveys, checklists)
+- **Image Extraction**: Extracts images with context and performs OCR for embedded text
 - **Issue Classification**: Automatically categorizes inspection issues by status and priority
-- **Data Structuring**: Links related data (tables, text) to specific issues
+- **Data Structuring**: Links related data (images, tables, text) to specific issues
 - **Caching**: Built-in caching system to avoid reprocessing unchanged files
-
-> **Note**: Image extraction is currently disabled in the pipeline.
 
 ## Installation
 
 ### Prerequisites
 
 - Python 3.8+
+- poppler-utils (for PDF to image conversion)
+- tesseract (for OCR)
 
-### Installation
+### macOS Installation
 
 ```bash
+# Install system dependencies
+brew install poppler tesseract
+
+# Create virtual environment
+python3 -m venv venv
+source venv/bin/activate
+
+# Install Python dependencies
+pip install -r requirements.txt
+```
+
+### Linux Installation
+
+```bash
+# Install system dependencies
+sudo apt-get update
+sudo apt-get install poppler-utils tesseract-ocr
+
 # Create virtual environment
 python3 -m venv venv
 source venv/bin/activate
@@ -64,6 +83,7 @@ report = pipeline.process_pdf("path/to/report.pdf")
 
 # Access extracted data
 print(f"Found {len(report.issues)} issues")
+print(f"Extracted {len(report.images)} images")
 print(f"Found {len(report.tables)} tables")
 
 # Access specific issues
@@ -71,6 +91,7 @@ for issue in report.issues:
     if issue.status == 'D':  # Deficient items
         print(f"Deficient: {issue.title}")
         print(f"Priority: {issue.priority}")
+        print(f"Images: {len(issue.related_images)}")
 ```
 
 ## Output Structure
@@ -94,6 +115,7 @@ Each issue contains:
 - `priority`: Priority level (high, medium, low, info)
 - `title`: Short description
 - `description`: Full text content
+- `related_images`: List of associated image paths
 - `page_numbers`: Pages where issue appears
 - `estimated_cost`: Cost estimate if available
 
@@ -103,6 +125,14 @@ Each issue contains:
 - `table_data`: Extracted table data
 - `column_headers`: Table headers
 - `table_type`: Classification (elevation_survey, cost_estimate, checklist, etc.)
+
+### Images
+- `page_num`: Page number
+- `image_path`: Path to extracted image
+- `caption`: Extracted caption
+- `related_section`: Associated section
+- `related_text`: Nearby text context
+- `ocr_text`: OCR extracted text
 
 ## Architecture
 
@@ -123,12 +153,17 @@ Each issue contains:
    - Semantic classification
    - Data cleaning and validation
 
-4. **Data Structurer** (`src/data_structurer.py`)
+4. **Image Extractor** (`src/image_extractor.py`)
+   - PDF to image conversion
+   - OCR processing
+   - Context extraction
+
+5. **Data Structurer** (`src/data_structurer.py`)
    - Issue classification and linking
    - Priority assignment
    - Data validation
 
-5. **Pipeline Orchestrator** (`src/pipeline.py`)
+6. **Pipeline Orchestrator** (`src/pipeline.py`)
    - Main processing pipeline
    - Caching system
    - Error handling and logging
@@ -185,9 +220,10 @@ The pipeline includes comprehensive error handling:
 
 ## Limitations
 
-1. **Image Extraction**: Image extraction is currently disabled
-2. **Pattern Matching**: Relies on consistent document formatting
-3. **Language Support**: Currently optimized for English inspection reports
+1. **Image Extraction**: Current implementation converts entire pages to images rather than extracting individual embedded images
+2. **OCR Quality**: Depends on image quality and tesseract configuration
+3. **Pattern Matching**: Relies on consistent document formatting
+4. **Language Support**: Currently optimized for English inspection reports
 
 ## Extending the Pipeline
 
@@ -222,8 +258,10 @@ class PDFMetadata:
 
 ### Common Issues
 
-1. **Memory errors**: Process smaller batches or individual pages
-2. **Pattern matching issues**: Ensure PDFs have consistent formatting
+1. **"poppler not found"**: Install poppler-utils
+2. **"tesseract not found"**: Install tesseract
+3. **Memory errors**: Process smaller batches or individual pages
+4. **Poor OCR results**: Check image quality and tesseract language packs
 
 ### Debug Mode
 
