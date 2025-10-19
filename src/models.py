@@ -132,3 +132,59 @@ class StructuredReport:
             images=images,
             raw_sections=data['raw_sections']
         )
+
+
+@dataclass
+class CostBreakdown:
+    """Cost breakdown for a repair estimate."""
+    labor_min: float
+    labor_max: float
+    materials_min: float
+    materials_max: float
+    total_min: float
+    total_max: float
+    
+    def to_dict(self) -> Dict[str, Any]:
+        return asdict(self)
+
+
+@dataclass
+class RepairEstimate:
+    """AI-generated repair cost estimate for an issue."""
+    issue_id: str
+    repair_name: str
+    cost_breakdown: CostBreakdown
+    timeline_days_min: int
+    timeline_days_max: int
+    urgency: str  # 'critical', 'high', 'medium', 'low'
+    contractor_type: str
+    houston_notes: str
+    explanation: str
+    confidence_score: float  # 0.0 to 1.0
+    
+    def to_dict(self) -> Dict[str, Any]:
+        return asdict(self)
+
+
+@dataclass
+class EstimationResult:
+    """Complete cost estimation result for a report."""
+    property_address: str
+    inspection_date: str
+    total_issues: int
+    deficient_issues: int
+    estimates: List[RepairEstimate]
+    total_cost_min: float
+    total_cost_max: float
+    summary_by_section: Dict[str, Dict[str, float]]  # section -> {min, max}
+    top_priorities: List[RepairEstimate]
+    houston_considerations: List[str]
+    generated_at: str
+    
+    def to_dict(self) -> Dict[str, Any]:
+        return asdict(self)
+    
+    def to_json(self, filepath: str) -> None:
+        """Save estimation result to JSON file."""
+        with open(filepath, 'w', encoding='utf-8') as f:
+            json.dump(self.to_dict(), f, indent=2, default=str)
