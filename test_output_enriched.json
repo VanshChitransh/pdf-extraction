@@ -1,0 +1,654 @@
+{
+  "issues": [
+    {
+      "id": "TEST_001",
+      "section": "II. PLUMBING SYSTEM",
+      "subsection": "Water Heater",
+      "status": "D",
+      "priority": "high",
+      "title": "Water heater showing signs of age and minor corrosion",
+      "description": "The water heater in the utility room shows signs of age with minor surface rust on the tank. Unit is approximately 12 years old. Recommend replacementor further evaluation by licensed plumber.",
+      "page_numbers": [
+        15
+      ],
+      "estimated_cost": null,
+      "severity": "unknown",
+      "suggested_action": "",
+      "standard_category": "Plumbing",
+      "standard_severity": "high",
+      "standard_action": "further_inspection",
+      "extracted_attributes": {
+        "locations": [
+          "utility room"
+        ],
+        "materials": [
+          "wood",
+          "concrete"
+        ],
+        "damage_types": [
+          "rust"
+        ]
+      },
+      "enrichment_metadata": {
+        "component_taxonomy": {
+          "category": "HVAC",
+          "subcategory": null,
+          "confidence": 0.65,
+          "original_item": "Minor shingle damage on south side"
+        },
+        "attributes": {
+          "locations": [
+            "side",
+            "south",
+            "roof"
+          ],
+          "materials": [
+            "shingles"
+          ],
+          "damage_types": [
+            "damaged"
+          ]
+        },
+        "urgency_score": 10.0,
+        "complexity_factor": 8.5,
+        "specialized_labor": true,
+        "classification": {
+          "trade": "hvac",
+          "trade_confidence": 0.95,
+          "work_type": "repair",
+          "work_type_confidence": 0.9,
+          "complexity": "complex",
+          "complexity_confidence": 0.8
+        },
+        "cost_strategy": {
+          "strategy": "llm_reasoning",
+          "confidence": 0.85,
+          "reasoning": {
+            "reason": "High complexity requires contextual reasoning"
+          }
+        }
+      },
+      "classification": {
+        "trade": "plumbing",
+        "trade_confidence": 0.95,
+        "work_type": "inspection",
+        "work_type_confidence": 0.9,
+        "complexity": "complex",
+        "complexity_confidence": 0.8
+      },
+      "cost_strategy": "llm_reasoning",
+      "grouped_with": [],
+      "validation_status": "pending",
+      "severity_confidence": 0.7,
+      "action_confidence": 0.8,
+      "action_priority": 3,
+      "standard_subcategory": "water_heater",
+      "category_confidence": 0.7124999999999999,
+      "urgency_score": 9.0,
+      "complexity_factor": 7.0,
+      "requires_specialized_labor": true,
+      "is_grouped": false,
+      "strategy_confidence": 0.85,
+      "strategy_reasoning": {
+        "reason": "High complexity requires contextual reasoning"
+      }
+    },
+    {
+      "id": "TEST_002",
+      "section": "I. STRUCTURAL SYSTEMS",
+      "subsection": "Foundation",
+      "status": "D",
+      "priority": "critical",
+      "title": "Significant cracks observed in foundation",
+      "description": "Multiple cracks approximately 2-3 inches wide observed in concrete foundation at northwest corner. Water staining present. Immediate evaluation by structural engineer recommended for safety.",
+      "page_numbers": [
+        8
+      ],
+      "estimated_cost": null,
+      "severity": "unknown",
+      "suggested_action": "",
+      "standard_category": "Structural",
+      "standard_severity": "critical",
+      "standard_action": "immediate_repair",
+      "extracted_attributes": {
+        "locations": [
+          "north",
+          "west",
+          "foundation"
+        ],
+        "measurements": {
+          "lengths": [
+            "3"
+          ]
+        },
+        "materials": [
+          "concrete"
+        ],
+        "damage_types": [
+          "water_damage",
+          "crack"
+        ],
+        "safety_related": true
+      },
+      "enrichment_metadata": {
+        "component_taxonomy": {
+          "category": "HVAC",
+          "subcategory": null,
+          "confidence": 0.65,
+          "original_item": "Minor shingle damage on south side"
+        },
+        "attributes": {
+          "locations": [
+            "side",
+            "south",
+            "roof"
+          ],
+          "materials": [
+            "shingles"
+          ],
+          "damage_types": [
+            "damaged"
+          ]
+        },
+        "urgency_score": 10.0,
+        "complexity_factor": 8.5,
+        "specialized_labor": true,
+        "classification": {
+          "trade": "hvac",
+          "trade_confidence": 0.95,
+          "work_type": "repair",
+          "work_type_confidence": 0.9,
+          "complexity": "complex",
+          "complexity_confidence": 0.8
+        },
+        "cost_strategy": {
+          "strategy": "llm_reasoning",
+          "confidence": 0.85,
+          "reasoning": {
+            "reason": "High complexity requires contextual reasoning"
+          }
+        }
+      },
+      "classification": {
+        "trade": "structural",
+        "trade_confidence": 0.95,
+        "work_type": "repair",
+        "work_type_confidence": 0.9,
+        "complexity": "complex",
+        "complexity_confidence": 0.9
+      },
+      "cost_strategy": "llm_reasoning",
+      "grouped_with": [],
+      "validation_status": "pending",
+      "severity_confidence": 0.7999999999999999,
+      "action_confidence": 0.7999999999999999,
+      "action_priority": 5,
+      "standard_subcategory": "foundation",
+      "category_confidence": 0.7124999999999999,
+      "safety_flag": true,
+      "urgency_score": 10.0,
+      "complexity_factor": 9.0,
+      "requires_specialized_labor": true,
+      "is_grouped": false,
+      "strategy_confidence": 0.85,
+      "strategy_reasoning": {
+        "reason": "High complexity requires contextual reasoning"
+      }
+    },
+    {
+      "id": "TEST_003",
+      "section": "III. ELECTRICAL SYSTEM",
+      "subsection": "Outlets",
+      "status": "D",
+      "priority": "medium",
+      "title": "GFCI outlets missing in bathroom",
+      "description": "Bathroom outlets near sink do not have GFCI protection. Install GFCI outlets per current electrical code requirements.",
+      "page_numbers": [
+        12
+      ],
+      "estimated_cost": null,
+      "severity": "unknown",
+      "suggested_action": "",
+      "standard_category": "Electrical",
+      "standard_severity": "high",
+      "standard_action": "unknown",
+      "extracted_attributes": {
+        "locations": [
+          "bathroom"
+        ],
+        "damage_types": [
+          "rot",
+          "missing"
+        ]
+      },
+      "enrichment_metadata": {
+        "component_taxonomy": {
+          "category": "HVAC",
+          "subcategory": null,
+          "confidence": 0.65,
+          "original_item": "Minor shingle damage on south side"
+        },
+        "attributes": {
+          "locations": [
+            "side",
+            "south",
+            "roof"
+          ],
+          "materials": [
+            "shingles"
+          ],
+          "damage_types": [
+            "damaged"
+          ]
+        },
+        "urgency_score": 10.0,
+        "complexity_factor": 8.5,
+        "specialized_labor": true,
+        "classification": {
+          "trade": "hvac",
+          "trade_confidence": 0.95,
+          "work_type": "repair",
+          "work_type_confidence": 0.9,
+          "complexity": "complex",
+          "complexity_confidence": 0.8
+        },
+        "cost_strategy": {
+          "strategy": "llm_reasoning",
+          "confidence": 0.85,
+          "reasoning": {
+            "reason": "High complexity requires contextual reasoning"
+          }
+        }
+      },
+      "classification": {
+        "trade": "electrical",
+        "trade_confidence": 0.95,
+        "work_type": "repair",
+        "work_type_confidence": 0.5,
+        "complexity": "complex",
+        "complexity_confidence": 0.8
+      },
+      "cost_strategy": "llm_reasoning",
+      "grouped_with": [],
+      "validation_status": "pending",
+      "severity_confidence": 0.7,
+      "action_confidence": 0.0,
+      "action_priority": 0,
+      "standard_subcategory": "outlets",
+      "category_confidence": 0.7124999999999999,
+      "urgency_score": 8.0,
+      "complexity_factor": 7.5,
+      "requires_specialized_labor": true,
+      "is_grouped": false,
+      "strategy_confidence": 0.85,
+      "strategy_reasoning": {
+        "reason": "High complexity requires contextual reasoning"
+      }
+    },
+    {
+      "id": "TEST_004",
+      "section": "III. ELECTRICAL SYSTEM",
+      "subsection": "Outlets",
+      "status": "D",
+      "priority": "medium",
+      "title": "GFCI outlet not functioning in kitchen",
+      "description": "Kitchen GFCI outlet near sink failed to trip during testing. Replace GFCI outlet.",
+      "page_numbers": [
+        12
+      ],
+      "estimated_cost": null,
+      "severity": "unknown",
+      "suggested_action": "",
+      "standard_category": "Electrical",
+      "standard_severity": "high",
+      "standard_action": "replacement",
+      "extracted_attributes": {
+        "locations": [
+          "kitchen"
+        ]
+      },
+      "enrichment_metadata": {
+        "component_taxonomy": {
+          "category": "HVAC",
+          "subcategory": null,
+          "confidence": 0.65,
+          "original_item": "Minor shingle damage on south side"
+        },
+        "attributes": {
+          "locations": [
+            "side",
+            "south",
+            "roof"
+          ],
+          "materials": [
+            "shingles"
+          ],
+          "damage_types": [
+            "damaged"
+          ]
+        },
+        "urgency_score": 10.0,
+        "complexity_factor": 8.5,
+        "specialized_labor": true,
+        "classification": {
+          "trade": "hvac",
+          "trade_confidence": 0.95,
+          "work_type": "repair",
+          "work_type_confidence": 0.9,
+          "complexity": "complex",
+          "complexity_confidence": 0.8
+        },
+        "cost_strategy": {
+          "strategy": "llm_reasoning",
+          "confidence": 0.85,
+          "reasoning": {
+            "reason": "High complexity requires contextual reasoning"
+          }
+        }
+      },
+      "classification": {
+        "trade": "electrical",
+        "trade_confidence": 0.95,
+        "work_type": "replacement",
+        "work_type_confidence": 0.9,
+        "complexity": "complex",
+        "complexity_confidence": 0.8
+      },
+      "cost_strategy": "llm_reasoning",
+      "grouped_with": [],
+      "validation_status": "pending",
+      "severity_confidence": 0.7,
+      "action_confidence": 0.7,
+      "action_priority": 4,
+      "standard_subcategory": "gfci",
+      "category_confidence": 0.7124999999999999,
+      "urgency_score": 10.0,
+      "complexity_factor": 7.5,
+      "requires_specialized_labor": true,
+      "is_grouped": false,
+      "strategy_confidence": 0.85,
+      "strategy_reasoning": {
+        "reason": "High complexity requires contextual reasoning"
+      }
+    },
+    {
+      "id": "TEST_005",
+      "section": "IV. HVAC SYSTEM",
+      "subsection": "Air Conditioning",
+      "status": "D",
+      "priority": "high",
+      "title": "AC unit not cooling efficiently",
+      "description": "Central air conditioning unit in backyard showing reduced cooling capacity. System is 18 years old and may need replacement. Further evaluation by HVAC technician recommended.",
+      "page_numbers": [
+        18
+      ],
+      "estimated_cost": null,
+      "severity": "unknown",
+      "suggested_action": "",
+      "standard_category": "HVAC",
+      "standard_severity": "high",
+      "standard_action": "further_inspection",
+      "extracted_attributes": {
+        "locations": [
+          "back",
+          "yard"
+        ],
+        "materials": [
+          "concrete"
+        ]
+      },
+      "enrichment_metadata": {
+        "component_taxonomy": {
+          "category": "HVAC",
+          "subcategory": null,
+          "confidence": 0.65,
+          "original_item": "Minor shingle damage on south side"
+        },
+        "attributes": {
+          "locations": [
+            "side",
+            "south",
+            "roof"
+          ],
+          "materials": [
+            "shingles"
+          ],
+          "damage_types": [
+            "damaged"
+          ]
+        },
+        "urgency_score": 10.0,
+        "complexity_factor": 8.5,
+        "specialized_labor": true,
+        "classification": {
+          "trade": "hvac",
+          "trade_confidence": 0.95,
+          "work_type": "repair",
+          "work_type_confidence": 0.9,
+          "complexity": "complex",
+          "complexity_confidence": 0.8
+        },
+        "cost_strategy": {
+          "strategy": "llm_reasoning",
+          "confidence": 0.85,
+          "reasoning": {
+            "reason": "High complexity requires contextual reasoning"
+          }
+        }
+      },
+      "classification": {
+        "trade": "hvac",
+        "trade_confidence": 0.95,
+        "work_type": "inspection",
+        "work_type_confidence": 0.9,
+        "complexity": "complex",
+        "complexity_confidence": 0.8
+      },
+      "cost_strategy": "llm_reasoning",
+      "grouped_with": [],
+      "validation_status": "pending",
+      "severity_confidence": 0.7,
+      "action_confidence": 0.8,
+      "action_priority": 3,
+      "standard_subcategory": null,
+      "category_confidence": 0.675,
+      "urgency_score": 9.0,
+      "complexity_factor": 7.5,
+      "requires_specialized_labor": true,
+      "is_grouped": false,
+      "strategy_confidence": 0.85,
+      "strategy_reasoning": {
+        "reason": "High complexity requires contextual reasoning"
+      }
+    },
+    {
+      "id": "TEST_006",
+      "section": "V. ROOFING",
+      "subsection": "Shingles",
+      "status": "D",
+      "priority": "low",
+      "title": "Minor shingle damage on south side",
+      "description": "A few damaged shingles observed on south-facing roof section. Cosmetic issue, monitor for now. Consider repair during next maintenance cycle.",
+      "page_numbers": [
+        20
+      ],
+      "estimated_cost": null,
+      "severity": "unknown",
+      "suggested_action": "",
+      "standard_category": "HVAC",
+      "standard_severity": "high",
+      "standard_action": "immediate_repair",
+      "extracted_attributes": {
+        "locations": [
+          "side",
+          "south",
+          "roof"
+        ],
+        "materials": [
+          "shingles"
+        ],
+        "damage_types": [
+          "damaged"
+        ]
+      },
+      "enrichment_metadata": {
+        "component_taxonomy": {
+          "category": "HVAC",
+          "subcategory": null,
+          "confidence": 0.65,
+          "original_item": "Minor shingle damage on south side"
+        },
+        "attributes": {
+          "locations": [
+            "side",
+            "south",
+            "roof"
+          ],
+          "materials": [
+            "shingles"
+          ],
+          "damage_types": [
+            "damaged"
+          ]
+        },
+        "urgency_score": 10.0,
+        "complexity_factor": 8.5,
+        "specialized_labor": true,
+        "classification": {
+          "trade": "hvac",
+          "trade_confidence": 0.95,
+          "work_type": "repair",
+          "work_type_confidence": 0.9,
+          "complexity": "complex",
+          "complexity_confidence": 0.8
+        },
+        "cost_strategy": {
+          "strategy": "llm_reasoning",
+          "confidence": 0.85,
+          "reasoning": {
+            "reason": "High complexity requires contextual reasoning"
+          }
+        }
+      },
+      "classification": {
+        "trade": "hvac",
+        "trade_confidence": 0.95,
+        "work_type": "repair",
+        "work_type_confidence": 0.9,
+        "complexity": "complex",
+        "complexity_confidence": 0.8
+      },
+      "cost_strategy": "llm_reasoning",
+      "grouped_with": [],
+      "validation_status": "pending",
+      "severity_confidence": 0.7,
+      "action_confidence": 0.7999999999999999,
+      "action_priority": 5,
+      "standard_subcategory": null,
+      "category_confidence": 0.65,
+      "urgency_score": 10.0,
+      "complexity_factor": 8.5,
+      "requires_specialized_labor": true,
+      "is_grouped": false,
+      "strategy_confidence": 0.85,
+      "strategy_reasoning": {
+        "reason": "High complexity requires contextual reasoning"
+      }
+    }
+  ],
+  "summary": {
+    "total_issues": 6,
+    "by_severity": {
+      "high": 5,
+      "critical": 1
+    },
+    "by_action": {
+      "further_inspection": 2,
+      "immediate_repair": 2,
+      "unknown": 1,
+      "replacement": 1
+    },
+    "by_category": {
+      "Plumbing": 1,
+      "Structural": 1,
+      "Electrical": 2,
+      "HVAC": 2
+    },
+    "by_trade": {
+      "plumbing": 1,
+      "structural": 1,
+      "electrical": 2,
+      "hvac": 2
+    },
+    "by_complexity": {
+      "complex": 6
+    },
+    "by_strategy": {
+      "llm_reasoning": 6
+    },
+    "safety_issues": 1,
+    "grouped_issues": 0,
+    "avg_urgency": 9.33,
+    "avg_complexity": 7.83
+  },
+  "processing_stats": {
+    "total_input": 6,
+    "phases": {
+      "validation_cleaning": {
+        "validation_errors": 0,
+        "validation_warnings": 0,
+        "text_cleaned": 6,
+        "success_rate": 100.0
+      },
+      "normalization": {
+        "severity_normalized": 6,
+        "action_normalized": 6
+      },
+      "enrichment": {
+        "components_standardized": 6,
+        "attributes_extracted": 6,
+        "metadata_enriched": 6
+      },
+      "classification": {
+        "issues_classified": 6,
+        "classification_summary": {
+          "by_trade": {
+            "plumbing": 1,
+            "structural": 1,
+            "electrical": 2,
+            "hvac": 2
+          },
+          "by_work_type": {
+            "inspection": 2,
+            "repair": 3,
+            "replacement": 1
+          },
+          "by_complexity": {
+            "complex": 6
+          }
+        }
+      },
+      "grouping": {
+        "issues_grouped": 0,
+        "group_summary": {
+          "total_groups": 0,
+          "by_type": {},
+          "total_issues_grouped": 0,
+          "avg_group_size": 0
+        }
+      },
+      "cost_strategy": {
+        "strategies_assigned": 6,
+        "strategy_summary": {
+          "by_strategy": {
+            "llm_reasoning": 6
+          },
+          "avg_confidence": {
+            "llm_reasoning": 0.85
+          }
+        }
+      }
+    }
+  },
+  "groups": []
+}

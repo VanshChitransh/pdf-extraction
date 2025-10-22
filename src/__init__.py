@@ -4,7 +4,7 @@ PDF Extraction Pipeline for Inspection Reports
 
 from .pipeline import PDFExtractionPipeline
 from .models import (
-    PDFMetadata, TextBlock, ExtractedTable, ExtractedImage,
+    PDFMetadata, TextBlock, ExtractedTable,
     InspectionIssue, StructuredReport
 )
 
@@ -14,7 +14,6 @@ __all__ = [
     "PDFMetadata",
     "TextBlock", 
     "ExtractedTable",
-    "ExtractedImage",
     "InspectionIssue",
     "StructuredReport"
 ]

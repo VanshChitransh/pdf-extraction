@@ -49,28 +49,6 @@ class ExtractedTable:
 
 
 @dataclass
-class ExtractedImage:
-    """Extracted image with context and metadata."""
-    page_num: int
-    image_index: int
-    image_data: bytes  # Raw image data
-    image_path: str  # Saved path
-    caption: Optional[str]
-    related_section: str
-    related_text: str  # Text near the image
-    bbox: Optional[Tuple[float, float, float, float]]
-    ocr_text: Optional[str]  # Text extracted from image via OCR
-    
-    def to_dict(self) -> Dict[str, Any]:
-        # Convert bytes to base64 for JSON serialization
-        import base64
-        data = asdict(self)
-        if data['image_data']:
-            data['image_data'] = base64.b64encode(data['image_data']).decode('utf-8')
-        return data
-
-
-@dataclass
 class InspectionIssue:
     """Structured inspection issue with all related data."""
     id: str  # Unique identifier
@@ -80,7 +58,6 @@ class InspectionIssue:
     priority: str  # 'high', 'medium', 'low', 'info'
     title: str  # Short description
     description: str  # Full text
-    related_images: List[str]  # Paths to images
     page_numbers: List[int]
     estimated_cost: Optional[Dict[str, float]]  # {'min': 500, 'max': 700}
     
@@ -94,7 +71,6 @@ class StructuredReport:
     metadata: PDFMetadata
     issues: List[InspectionIssue]
     tables: List[ExtractedTable]
-    images: List[ExtractedImage]
     raw_sections: Dict[str, str]  # Section → Full text
     
     def to_dict(self) -> Dict[str, Any]:
@@ -117,18 +93,9 @@ class StructuredReport:
         issues = [InspectionIssue(**issue) for issue in data['issues']]
         tables = [ExtractedTable(**table) for table in data['tables']]
         
-        # Handle images with base64 decoding
-        images = []
-        for img_data in data['images']:
-            if img_data['image_data']:
-                import base64
-                img_data['image_data'] = base64.b64decode(img_data['image_data'])
-            images.append(ExtractedImage(**img_data))
-        
         return cls(
             metadata=metadata,
             issues=issues,
             tables=tables,
-            images=images,
             raw_sections=data['raw_sections']
         )

@@ -3,7 +3,7 @@ Data structuring and issue linking.
 """
 from typing import List, Dict, Optional
 from .models import (
-    PDFMetadata, TextBlock, ExtractedTable, ExtractedImage,
+    PDFMetadata, TextBlock, ExtractedTable,
     InspectionIssue, StructuredReport
 )
 
@@ -11,17 +11,12 @@ from .models import (
 def structure_extraction_results(
     metadata: PDFMetadata,
     text_blocks: List[TextBlock],
-    tables: List[ExtractedTable],
-    images: List[ExtractedImage]
+    tables: List[ExtractedTable]
 ) -> StructuredReport:
     """
     Combine all extracted data into a structured format.
     """
     issues = extract_inspection_issues(text_blocks)
-    
-    # Link images to issues (skip if no images)
-    if images:
-        link_images_to_issues(issues, images)
     
     # Extract cost estimates from tables
     extract_cost_estimates(issues, tables)
@@ -33,7 +28,6 @@ def structure_extraction_results(
         metadata=metadata,
         issues=issues,
         tables=tables,
-        images=images,
         raw_sections=raw_sections
     )
 
@@ -64,7 +58,6 @@ def extract_inspection_issues(text_blocks: List[TextBlock]) -> List[InspectionIs
                 priority=priority,
                 title=extract_title(block.content),
                 description=block.content,
-                related_images=[],
                 page_numbers=[block.page_num],
                 estimated_cost=None
             )
@@ -162,23 +155,6 @@ def extract_title(content: str) -> str:
     
     # Fallback to first 100 characters
     return content[:100].strip() + ('...' if len(content) > 100 else '')
-
-
-def link_images_to_issues(issues: List[InspectionIssue], images: List[ExtractedImage]) -> None:
-    """
-    Link images to relevant issues based on section and page context.
-    """
-    for image in images:
-        for issue in issues:
-            # Check if image is in same section and on same page
-            if (image.related_section == issue.section and 
-                image.page_num in issue.page_numbers):
-                issue.related_images.append(image.image_path)
-            
-            # Also check if image is on adjacent pages
-            elif (image.related_section == issue.section and 
-                  any(abs(image.page_num - pn) <= 1 for pn in issue.page_numbers)):
-                issue.related_images.append(image.image_path)
 
 
 def extract_cost_estimates(issues: List[InspectionIssue], tables: List[ExtractedTable]) -> None:
@@ -302,7 +278,6 @@ def get_extraction_summary(report: StructuredReport) -> Dict[str, any]:
             'low': len([i for i in report.issues if i.priority == 'low']),
             'info': len([i for i in report.issues if i.priority == 'info'])
         },
-        'total_images': len(report.images),
         'total_tables': len(report.tables),
         'pages_processed': report.metadata.total_pages,
         'sections_found': len(report.raw_sections)

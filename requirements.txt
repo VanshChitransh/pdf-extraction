@@ -1,0 +1,29 @@
+# PDF Processing Libraries
+PyPDF2==3.0.1
+pdfplumber==0.10.3
+
+# AI API Libraries for Cost Estimation
+google-generativeai>=0.3.0  # Gemini API (recommended)
+openai>=1.0.0                # OpenAI API (alternative)
+
+# Image extraction removed - not needed for cost estimation
+# pdf2image [REMOVED]
+# pytesseract [REMOVED]
+
+# All other dependencies are part of Python standard library:
+# - json
+# - logging
+# - hashlib
+# - pathlib
+# - dataclasses (Python 3.8+)
+# - typing (Python 3.8+)
+# - re
+# - argparse
+# - collections
+# - time
+# - datetime
+
+# Installation:
+# For Gemini (recommended): pip install google-generativeai
+# For OpenAI: pip install openai
+# For both: pip install -r requirements.txt

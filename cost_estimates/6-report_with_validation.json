@@ -1,0 +1,2000 @@
+{
+  "metadata": {
+    "generated_at": "2025-10-22T14:03:37.632214",
+    "model": "gemini-2.5-pro",
+    "temperature": 0.3,
+    "pipeline_version": "enhanced_v1.0",
+    "features_enabled": {
+      "database_lookup": true,
+      "relationship_analysis": true,
+      "specialist_prompts": true
+    },
+    "property_data": {}
+  },
+  "summary": {
+    "total_issues": 53,
+    "database_matches": 0,
+    "ai_estimates": 0,
+    "hybrid_estimates": 0,
+    "high_confidence": 0,
+    "needs_review": 0,
+    "bundles_identified": 1,
+    "data_quality_excluded": 38,
+    "data_quality_flagged": 0,
+    "estimation_auto_corrected": 0,
+    "estimation_validation_failed": 0,
+    "total_estimated_low": 0,
+    "total_estimated_high": 0,
+    "average_confidence": 0
+  },
+  "relationships": {
+    "causal_chains": [
+      {
+        "root_cause": {
+          "id": "I. STRUCTURAL SYSTEMS_10",
+          "section": "I. STRUCTURAL SYSTEMS",
+          "subsection": "C. Roof Covering Materials",
+          "status": "I",
+          "priority": "info",
+          "title": "Comments:",
+          "description": "Comments: ROOF SURFACE: Older roof. Observed curled ends, and/or excessive granular loss of shingles. Page 10 of 34 REI 7-6 (8/9/21) Promulgated by the Texas Real Estate Commission 1 (512) 936-3000 1 www. Trec. Texas. Gov Report Identification: 081625AD1, 18559 Denise Dale Ln, Houston, TX I=Inspected NI=Not Inspected NP=Not Present D=Deficient I NI NP D Soft spot observed at roof decking. The roof changes from shingles to a rolled roofing material near the chimney, which is common for low-slope areas. These transitions are more prone to leaks and should be monitored. Some sealant is present at the chimney flashing, which may only be a temporary fix. Recommend monitoring during the heavy rain.",
+          "page_numbers": [
+            11,
+            12
+          ],
+          "estimated_cost": null,
+          "severity": "unknown",
+          "suggested_action": "",
+          "standard_category": "HVAC",
+          "standard_severity": "high",
+          "standard_action": "immediate_repair",
+          "extracted_attributes": {
+            "locations": [
+              "den",
+              "roof",
+              "deck",
+              "gate"
+            ],
+            "materials": [
+              "shingles"
+            ],
+            "damage_types": [
+              "water_damage",
+              "missing"
+            ]
+          },
+          "enrichment_metadata": {
+            "component_taxonomy": {
+              "category": "Grounds",
+              "subcategory": null,
+              "confidence": 0.65,
+              "original_item": "Comments:"
+            },
+            "attributes": {
+              "locations": [
+                "yard",
+                "fence",
+                "gate"
+              ],
+              "damage_types": [
+                "damaged"
+              ]
+            },
+            "property": {
+              "address": "1\n 18559 Denise Dale Ln, Houston, TX 77084",
+              "total_pages": 35,
+              "inspection_date": "Saturday, August 16, 2025"
+            },
+            "urgency_score": 7.0,
+            "complexity_factor": 6.0,
+            "specialized_labor": true,
+            "classification": {
+              "trade": "plumbing",
+              "trade_confidence": 0.6,
+              "work_type": "inspection",
+              "work_type_confidence": 0.9,
+              "complexity": "moderate",
+              "complexity_confidence": 0.75
+            },
+            "cost_strategy": {
+              "strategy": "llm_reasoning",
+              "confidence": 0.8,
+              "reasoning": {
+                "reason": "Long description requires detailed analysis"
+              }
+            }
+          },
+          "classification": {
+            "trade": "hvac",
+            "trade_confidence": 0.95,
+            "work_type": "repair",
+            "work_type_confidence": 0.9,
+            "complexity": "complex",
+            "complexity_confidence": 0.8
+          },
+          "cost_strategy": "llm_reasoning",
+          "grouped_with": [
+            "group_1",
+            "group_3",
+            "group_15",
+            "group_2",
+            "group_21",
+            "group_4"
+          ],
+          "validation_status": "pending",
+          "severity_confidence": 0.7999999999999999,
+          "action_confidence": 0.7999999999999999,
+          "action_priority": 5,
+          "standard_subcategory": null,
+          "category_confidence": 0.65,
+          "urgency_score": 10.0,
+          "complexity_factor": 8.5,
+          "requires_specialized_labor": true,
+          "is_grouped": true,
+          "strategy_confidence": 0.85,
+          "strategy_reasoning": {
+            "reason": "High complexity requires contextual reasoning"
+          },
+          "data_quality_score": 0.6,
+          "data_quality_issues": [
+            "Appears to be section header, not issue"
+          ]
+        },
+        "caused_issues": [
+          {
+            "id": "III. HEATING, VENTILATION AND AIR CONDITIONING SYSTEMS_31",
+            "section": "III. HEATING, VENTILATION AND AIR CONDITIONING SYSTEMS",
+            "subsection": "C. Duct Systems, Chases, and Vents",
+            "status": "I",
+            "priority": "info",
+            "title": "Comments:",
+            "description": "Comments: The HVAC ductwork appears to be older duct work. During the inspection, some registers showed visible dirt and possible microbial growth, indicating a buildup of debris within the system. While no major damage was noted, aging ductwork can develop air leaks, insulation breakdown, and reduced efficiency over time. Recommended to have the ductwork professionally cleaned to address the observed debris and potential microbial contaminants. In addition, a licensed HVAC contractor should evaluate the overall condition of the duct system to determine if any sealing, repairs, or full replacement is needed to improve air quality and system performance. F Client Advisory: This company does not inspect the interior of the HVAC Duct System. We do not inspect for, and are not qualified to render opinions on, any type of environmentalor other bio-hazards. If this is a concernor potential concern, Inspector recommends contacting a qualified professional of your choice for further information / investigation. Page 25 of 34 REI 7-6 (8/9/21) Promulgated by the Texas Real Estate Commission 1 (512) 936-3000 1 www. Trec. Texas. Gov Report Identification: 081625AD1, 18559 Denise Dale Ln, Houston, TX I=Inspected NI=Not Inspected NP=Not Present D=Deficient I NI NP D.",
+            "page_numbers": [
+              26,
+              27
+            ],
+            "estimated_cost": null,
+            "severity": "unknown",
+            "suggested_action": "",
+            "standard_category": "HVAC",
+            "standard_severity": "high",
+            "standard_action": "replacement",
+            "extracted_attributes": {
+              "locations": [
+                "den",
+                "interior",
+                "gate"
+              ],
+              "materials": [
+                "metal",
+                "concrete"
+              ],
+              "damage_types": [
+                "water_damage",
+                "wear",
+                "missing"
+              ],
+              "safety_related": true
+            },
+            "enrichment_metadata": {
+              "component_taxonomy": {
+                "category": "Grounds",
+                "subcategory": null,
+                "confidence": 0.65,
+                "original_item": "Comments:"
+              },
+              "attributes": {
+                "locations": [
+                  "yard",
+                  "fence",
+                  "gate"
+                ],
+                "damage_types": [
+                  "damaged"
+                ]
+              },
+              "property": {
+                "address": "1\n 18559 Denise Dale Ln, Houston, TX 77084",
+                "total_pages": 35,
+                "inspection_date": "Saturday, August 16, 2025"
+              },
+              "urgency_score": 7.0,
+              "complexity_factor": 6.0,
+              "specialized_labor": true,
+              "classification": {
+                "trade": "plumbing",
+                "trade_confidence": 0.6,
+                "work_type": "inspection",
+                "work_type_confidence": 0.9,
+                "complexity": "moderate",
+                "complexity_confidence": 0.75
+              },
+              "cost_strategy": {
+                "strategy": "llm_reasoning",
+                "confidence": 0.8,
+                "reasoning": {
+                  "reason": "Long description requires detailed analysis"
+                }
+              }
+            },
+            "classification": {
+              "trade": "hvac",
+              "trade_confidence": 0.95,
+              "work_type": "replacement",
+              "work_type_confidence": 0.9,
+              "complexity": "complex",
+              "complexity_confidence": 0.9
+            },
+            "cost_strategy": "llm_reasoning",
+            "grouped_with": [
+              "group_1",
+              "group_31",
+              "group_14",
+              "group_30",
+              "group_4"
+            ],
+            "validation_status": "pending",
+            "severity_confidence": 0.7999999999999999,
+            "action_confidence": 0.8,
+            "action_priority": 4,
+            "standard_subcategory": null,
+            "category_confidence": 0.6,
+            "safety_flag": true,
+            "urgency_score": 10.0,
+            "complexity_factor": 9.5,
+            "requires_specialized_labor": true,
+            "is_grouped": true,
+            "strategy_confidence": 0.85,
+            "strategy_reasoning": {
+              "reason": "High complexity requires contextual reasoning"
+            },
+            "data_quality_score": 0.6,
+            "data_quality_issues": [
+              "Appears to be section header, not issue"
+            ]
+          }
+        ],
+        "chain_length": 2,
+        "priority": "medium",
+        "recommendation": "Address root cause first: Unknown"
+      },
+      {
+        "root_cause": {
+          "id": "I. Stairways (Interior and Exterior)_22",
+          "section": "I. Stairways (Interior and Exterior)",
+          "subsection": "K. Porches, Balconies, Decks, and Carports",
+          "status": "I",
+          "priority": "info",
+          "title": "Comments:",
+          "description": "Comments: The driveway has settled and has multiple cracks and uneven surfaces. Page 19 of 34 REI 7-6 (8/9/21) Promulgated by the Texas Real Estate Commission 1 (512) 936-3000 1 www. Trec. Texas. Gov Report Identification: 081625AD1, 18559 Denise Dale Ln, Houston, TX I=Inspected NI=Not Inspected NP=Not Present D=Deficient I NI NP D High soil and patio obscures the view of foundation and prevents visual inspection for termite and/or water penetration. Cracks in walkways, driveway and/or garage concrete observed, typical.",
+          "page_numbers": [
+            20,
+            21
+          ],
+          "estimated_cost": null,
+          "severity": "unknown",
+          "suggested_action": "",
+          "standard_category": "HVAC",
+          "standard_severity": "high",
+          "standard_action": "immediate_repair",
+          "extracted_attributes": {
+            "locations": [
+              "garage",
+              "den",
+              "driveway",
+              "walkway",
+              "patio",
+              "gate",
+              "foundation"
+            ],
+            "materials": [
+              "concrete"
+            ],
+            "damage_types": [
+              "crack",
+              "missing"
+            ]
+          },
+          "enrichment_metadata": {
+            "component_taxonomy": {
+              "category": "Grounds",
+              "subcategory": null,
+              "confidence": 0.65,
+              "original_item": "Comments:"
+            },
+            "attributes": {
+              "locations": [
+                "yard",
+                "fence",
+                "gate"
+              ],
+              "damage_types": [
+                "damaged"
+              ]
+            },
+            "property": {
+              "address": "1\n 18559 Denise Dale Ln, Houston, TX 77084",
+              "total_pages": 35,
+              "inspection_date": "Saturday, August 16, 2025"
+            },
+            "urgency_score": 7.0,
+            "complexity_factor": 6.0,
+            "specialized_labor": true,
+            "classification": {
+              "trade": "plumbing",
+              "trade_confidence": 0.6,
+              "work_type": "inspection",
+              "work_type_confidence": 0.9,
+              "complexity": "moderate",
+              "complexity_confidence": 0.75
+            },
+            "cost_strategy": {
+              "strategy": "llm_reasoning",
+              "confidence": 0.8,
+              "reasoning": {
+                "reason": "Long description requires detailed analysis"
+              }
+            }
+          },
+          "classification": {
+            "trade": "hvac",
+            "trade_confidence": 0.95,
+            "work_type": "repair",
+            "work_type_confidence": 0.9,
+            "complexity": "complex",
+            "complexity_confidence": 0.8
+          },
+          "cost_strategy": "llm_reasoning",
+          "grouped_with": [
+            "group_1",
+            "group_3",
+            "group_2",
+            "group_9",
+            "group_20",
+            "group_16",
+            "group_4"
+          ],
+          "validation_status": "pending",
+          "severity_confidence": 0.7999999999999999,
+          "action_confidence": 0.7999999999999999,
+          "action_priority": 5,
+          "standard_subcategory": null,
+          "category_confidence": 0.65,
+          "urgency_score": 10.0,
+          "complexity_factor": 8.5,
+          "requires_specialized_labor": true,
+          "is_grouped": true,
+          "strategy_confidence": 0.85,
+          "strategy_reasoning": {
+            "reason": "High complexity requires contextual reasoning"
+          },
+          "data_quality_score": 0.58,
+          "data_quality_issues": [
+            "Appears to be section header, not issue"
+          ]
+        },
+        "caused_issues": [
+          {
+            "id": "I. STRUCTURAL SYSTEMS_14",
+            "section": "I. STRUCTURAL SYSTEMS",
+            "subsection": "E. Walls (Interior and Exterior)",
+            "status": "I",
+            "priority": "info",
+            "title": "Comments:",
+            "description": "Comments: INTERIOR: Cracks and/or previously repaired cracks in the sheetrock observed over some/many doors, windows, and/or corners. Hole in the sheetrock where plumbing lines pass through the wall, below the kitchen sink. Water damage to the base of the cabinet below the sink.",
+            "page_numbers": [
+              15
+            ],
+            "estimated_cost": null,
+            "severity": "unknown",
+            "suggested_action": "",
+            "standard_category": "HVAC",
+            "standard_severity": "high",
+            "standard_action": "immediate_repair",
+            "extracted_attributes": {
+              "locations": [
+                "kitchen",
+                "interior"
+              ],
+              "materials": [
+                "drywall"
+              ],
+              "damage_types": [
+                "water_damage",
+                "crack"
+              ]
+            },
+            "enrichment_metadata": {
+              "component_taxonomy": {
+                "category": "Grounds",
+                "subcategory": null,
+                "confidence": 0.65,
+                "original_item": "Comments:"
+              },
+              "attributes": {
+                "locations": [
+                  "yard",
+                  "fence",
+                  "gate"
+                ],
+                "damage_types": [
+                  "damaged"
+                ]
+              },
+              "property": {
+                "address": "1\n 18559 Denise Dale Ln, Houston, TX 77084",
+                "total_pages": 35,
+                "inspection_date": "Saturday, August 16, 2025"
+              },
+              "urgency_score": 7.0,
+              "complexity_factor": 6.0,
+              "specialized_labor": true,
+              "classification": {
+                "trade": "plumbing",
+                "trade_confidence": 0.6,
+                "work_type": "inspection",
+                "work_type_confidence": 0.9,
+                "complexity": "moderate",
+                "complexity_confidence": 0.75
+              },
+              "cost_strategy": {
+                "strategy": "llm_reasoning",
+                "confidence": 0.8,
+                "reasoning": {
+                  "reason": "Long description requires detailed analysis"
+                }
+              }
+            },
+            "classification": {
+              "trade": "hvac",
+              "trade_confidence": 0.95,
+              "work_type": "repair",
+              "work_type_confidence": 0.9,
+              "complexity": "complex",
+              "complexity_confidence": 0.8
+            },
+            "cost_strategy": "llm_reasoning",
+            "grouped_with": [
+              "group_3",
+              "group_14",
+              "group_2"
+            ],
+            "validation_status": "pending",
+            "severity_confidence": 0.7999999999999999,
+            "action_confidence": 0.7999999999999999,
+            "action_priority": 5,
+            "standard_subcategory": null,
+            "category_confidence": 0.65,
+            "urgency_score": 10.0,
+            "complexity_factor": 7.5,
+            "requires_specialized_labor": true,
+            "is_grouped": true,
+            "strategy_confidence": 0.85,
+            "strategy_reasoning": {
+              "reason": "High complexity requires contextual reasoning"
+            },
+            "data_quality_score": 0.58,
+            "data_quality_issues": [
+              "Appears to be section header, not issue"
+            ]
+          }
+        ],
+        "chain_length": 2,
+        "priority": "medium",
+        "recommendation": "Address root cause first: Unknown"
+      }
+    ],
+    "bundles": [
+      {
+        "bundle_type": "same_contractor",
+        "contractor_type": "general_contractor",
+        "issues": [
+          {
+            "id": "I. STRUCTURAL SYSTEMS_9",
+            "section": "I. STRUCTURAL SYSTEMS",
+            "subsection": "C. Roof Covering Materials",
+            "status": "I",
+            "priority": "high",
+            "title": "Types of Roof Covering: Composition",
+            "description": "Types of Roof Covering: Composition Viewed From: Roof Level.",
+            "page_numbers": [
+              11
+            ],
+            "estimated_cost": null,
+            "severity": "unknown",
+            "suggested_action": "",
+            "standard_category": "Roofing",
+            "standard_severity": "medium",
+            "standard_action": "unknown",
+            "extracted_attributes": {
+              "locations": [
+                "roof"
+              ]
+            },
+            "enrichment_metadata": {
+              "component_taxonomy": {
+                "category": "Grounds",
+                "subcategory": null,
+                "confidence": 0.65,
+                "original_item": "Comments:"
+              },
+              "attributes": {
+                "locations": [
+                  "yard",
+                  "fence",
+                  "gate"
+                ],
+                "damage_types": [
+                  "damaged"
+                ]
+              },
+              "property": {
+                "address": "1\n 18559 Denise Dale Ln, Houston, TX 77084",
+                "total_pages": 35,
+                "inspection_date": "Saturday, August 16, 2025"
+              },
+              "urgency_score": 7.0,
+              "complexity_factor": 6.0,
+              "specialized_labor": true,
+              "classification": {
+                "trade": "plumbing",
+                "trade_confidence": 0.6,
+                "work_type": "inspection",
+                "work_type_confidence": 0.9,
+                "complexity": "moderate",
+                "complexity_confidence": 0.75
+              },
+              "cost_strategy": {
+                "strategy": "llm_reasoning",
+                "confidence": 0.8,
+                "reasoning": {
+                  "reason": "Long description requires detailed analysis"
+                }
+              }
+            },
+            "classification": {
+              "trade": "roofing",
+              "trade_confidence": 0.95,
+              "work_type": "repair",
+              "work_type_confidence": 0.5,
+              "complexity": "complex",
+              "complexity_confidence": 0.8
+            },
+            "cost_strategy": "llm_reasoning",
+            "grouped_with": [],
+            "validation_status": "pending",
+            "severity_confidence": 0.7999999999999999,
+            "action_confidence": 0.0,
+            "action_priority": 0,
+            "standard_subcategory": null,
+            "category_confidence": 0.675,
+            "urgency_score": 7.0,
+            "complexity_factor": 7.0,
+            "requires_specialized_labor": true,
+            "is_grouped": false,
+            "strategy_confidence": 0.85,
+            "strategy_reasoning": {
+              "reason": "High complexity requires contextual reasoning"
+            },
+            "data_quality_score": 0.94,
+            "data_quality_issues": []
+          },
+          {
+            "id": "I. STRUCTURAL SYSTEMS_10",
+            "section": "I. STRUCTURAL SYSTEMS",
+            "subsection": "C. Roof Covering Materials",
+            "status": "I",
+            "priority": "info",
+            "title": "Comments:",
+            "description": "Comments: ROOF SURFACE: Older roof. Observed curled ends, and/or excessive granular loss of shingles. Page 10 of 34 REI 7-6 (8/9/21) Promulgated by the Texas Real Estate Commission 1 (512) 936-3000 1 www. Trec. Texas. Gov Report Identification: 081625AD1, 18559 Denise Dale Ln, Houston, TX I=Inspected NI=Not Inspected NP=Not Present D=Deficient I NI NP D Soft spot observed at roof decking. The roof changes from shingles to a rolled roofing material near the chimney, which is common for low-slope areas. These transitions are more prone to leaks and should be monitored. Some sealant is present at the chimney flashing, which may only be a temporary fix. Recommend monitoring during the heavy rain.",
+            "page_numbers": [
+              11,
+              12
+            ],
+            "estimated_cost": null,
+            "severity": "unknown",
+            "suggested_action": "",
+            "standard_category": "HVAC",
+            "standard_severity": "high",
+            "standard_action": "immediate_repair",
+            "extracted_attributes": {
+              "locations": [
+                "den",
+                "roof",
+                "deck",
+                "gate"
+              ],
+              "materials": [
+                "shingles"
+              ],
+              "damage_types": [
+                "water_damage",
+                "missing"
+              ]
+            },
+            "enrichment_metadata": {
+              "component_taxonomy": {
+                "category": "Grounds",
+                "subcategory": null,
+                "confidence": 0.65,
+                "original_item": "Comments:"
+              },
+              "attributes": {
+                "locations": [
+                  "yard",
+                  "fence",
+                  "gate"
+                ],
+                "damage_types": [
+                  "damaged"
+                ]
+              },
+              "property": {
+                "address": "1\n 18559 Denise Dale Ln, Houston, TX 77084",
+                "total_pages": 35,
+                "inspection_date": "Saturday, August 16, 2025"
+              },
+              "urgency_score": 7.0,
+              "complexity_factor": 6.0,
+              "specialized_labor": true,
+              "classification": {
+                "trade": "plumbing",
+                "trade_confidence": 0.6,
+                "work_type": "inspection",
+                "work_type_confidence": 0.9,
+                "complexity": "moderate",
+                "complexity_confidence": 0.75
+              },
+              "cost_strategy": {
+                "strategy": "llm_reasoning",
+                "confidence": 0.8,
+                "reasoning": {
+                  "reason": "Long description requires detailed analysis"
+                }
+              }
+            },
+            "classification": {
+              "trade": "hvac",
+              "trade_confidence": 0.95,
+              "work_type": "repair",
+              "work_type_confidence": 0.9,
+              "complexity": "complex",
+              "complexity_confidence": 0.8
+            },
+            "cost_strategy": "llm_reasoning",
+            "grouped_with": [
+              "group_1",
+              "group_3",
+              "group_15",
+              "group_2",
+              "group_21",
+              "group_4"
+            ],
+            "validation_status": "pending",
+            "severity_confidence": 0.7999999999999999,
+            "action_confidence": 0.7999999999999999,
+            "action_priority": 5,
+            "standard_subcategory": null,
+            "category_confidence": 0.65,
+            "urgency_score": 10.0,
+            "complexity_factor": 8.5,
+            "requires_specialized_labor": true,
+            "is_grouped": true,
+            "strategy_confidence": 0.85,
+            "strategy_reasoning": {
+              "reason": "High complexity requires contextual reasoning"
+            },
+            "data_quality_score": 0.6,
+            "data_quality_issues": [
+              "Appears to be section header, not issue"
+            ]
+          },
+          {
+            "id": "I. STRUCTURAL SYSTEMS_14",
+            "section": "I. STRUCTURAL SYSTEMS",
+            "subsection": "E. Walls (Interior and Exterior)",
+            "status": "I",
+            "priority": "info",
+            "title": "Comments:",
+            "description": "Comments: INTERIOR: Cracks and/or previously repaired cracks in the sheetrock observed over some/many doors, windows, and/or corners. Hole in the sheetrock where plumbing lines pass through the wall, below the kitchen sink. Water damage to the base of the cabinet below the sink.",
+            "page_numbers": [
+              15
+            ],
+            "estimated_cost": null,
+            "severity": "unknown",
+            "suggested_action": "",
+            "standard_category": "HVAC",
+            "standard_severity": "high",
+            "standard_action": "immediate_repair",
+            "extracted_attributes": {
+              "locations": [
+                "kitchen",
+                "interior"
+              ],
+              "materials": [
+                "drywall"
+              ],
+              "damage_types": [
+                "water_damage",
+                "crack"
+              ]
+            },
+            "enrichment_metadata": {
+              "component_taxonomy": {
+                "category": "Grounds",
+                "subcategory": null,
+                "confidence": 0.65,
+                "original_item": "Comments:"
+              },
+              "attributes": {
+                "locations": [
+                  "yard",
+                  "fence",
+                  "gate"
+                ],
+                "damage_types": [
+                  "damaged"
+                ]
+              },
+              "property": {
+                "address": "1\n 18559 Denise Dale Ln, Houston, TX 77084",
+                "total_pages": 35,
+                "inspection_date": "Saturday, August 16, 2025"
+              },
+              "urgency_score": 7.0,
+              "complexity_factor": 6.0,
+              "specialized_labor": true,
+              "classification": {
+                "trade": "plumbing",
+                "trade_confidence": 0.6,
+                "work_type": "inspection",
+                "work_type_confidence": 0.9,
+                "complexity": "moderate",
+                "complexity_confidence": 0.75
+              },
+              "cost_strategy": {
+                "strategy": "llm_reasoning",
+                "confidence": 0.8,
+                "reasoning": {
+                  "reason": "Long description requires detailed analysis"
+                }
+              }
+            },
+            "classification": {
+              "trade": "hvac",
+              "trade_confidence": 0.95,
+              "work_type": "repair",
+              "work_type_confidence": 0.9,
+              "complexity": "complex",
+              "complexity_confidence": 0.8
+            },
+            "cost_strategy": "llm_reasoning",
+            "grouped_with": [
+              "group_3",
+              "group_14",
+              "group_2"
+            ],
+            "validation_status": "pending",
+            "severity_confidence": 0.7999999999999999,
+            "action_confidence": 0.7999999999999999,
+            "action_priority": 5,
+            "standard_subcategory": null,
+            "category_confidence": 0.65,
+            "urgency_score": 10.0,
+            "complexity_factor": 7.5,
+            "requires_specialized_labor": true,
+            "is_grouped": true,
+            "strategy_confidence": 0.85,
+            "strategy_reasoning": {
+              "reason": "High complexity requires contextual reasoning"
+            },
+            "data_quality_score": 0.58,
+            "data_quality_issues": [
+              "Appears to be section header, not issue"
+            ]
+          },
+          {
+            "id": "I. STRUCTURAL SYSTEMS_15",
+            "section": "I. STRUCTURAL SYSTEMS",
+            "subsection": "E. Walls (Interior and Exterior)",
+            "status": "I",
+            "priority": "info",
+            "title": "Buyer's note: Fresh paint observed on interior surfaces can mask distress indicators",
+            "description": "Buyer's note: Fresh paint observed on interior surfaces can mask distress indicators. Page 14 of 34 REI 7-6 (8/9/21) Promulgated by the Texas Real Estate Commission 1 (512) 936-3000 1 www. Trec. Texas. Gov Report Identification: 081625AD1, 18559 Denise Dale Ln, Houston, TX I=Inspected NI=Not Inspected NP=Not Present D=Deficient I NI NP D Observed multiple plug-in fragrance devices, could potentially be used to cover up foul odors. F.",
+            "page_numbers": [
+              15,
+              16
+            ],
+            "estimated_cost": null,
+            "severity": "unknown",
+            "suggested_action": "",
+            "standard_category": "Interior",
+            "standard_severity": "low",
+            "standard_action": "monitoring",
+            "extracted_attributes": {
+              "locations": [
+                "den",
+                "interior",
+                "gate"
+              ],
+              "materials": [
+                "paint"
+              ],
+              "damage_types": [
+                "missing"
+              ]
+            },
+            "enrichment_metadata": {
+              "component_taxonomy": {
+                "category": "Grounds",
+                "subcategory": null,
+                "confidence": 0.65,
+                "original_item": "Comments:"
+              },
+              "attributes": {
+                "locations": [
+                  "yard",
+                  "fence",
+                  "gate"
+                ],
+                "damage_types": [
+                  "damaged"
+                ]
+              },
+              "property": {
+                "address": "1\n 18559 Denise Dale Ln, Houston, TX 77084",
+                "total_pages": 35,
+                "inspection_date": "Saturday, August 16, 2025"
+              },
+              "urgency_score": 7.0,
+              "complexity_factor": 6.0,
+              "specialized_labor": true,
+              "classification": {
+                "trade": "plumbing",
+                "trade_confidence": 0.6,
+                "work_type": "inspection",
+                "work_type_confidence": 0.9,
+                "complexity": "moderate",
+                "complexity_confidence": 0.75
+              },
+              "cost_strategy": {
+                "strategy": "llm_reasoning",
+                "confidence": 0.8,
+                "reasoning": {
+                  "reason": "Long description requires detailed analysis"
+                }
+              }
+            },
+            "classification": {
+              "trade": "painting",
+              "trade_confidence": 0.95,
+              "work_type": "monitoring",
+              "work_type_confidence": 0.9,
+              "complexity": "moderate",
+              "complexity_confidence": 0.75
+            },
+            "cost_strategy": "llm_reasoning",
+            "grouped_with": [],
+            "validation_status": "pending",
+            "severity_confidence": 0.7,
+            "action_confidence": 0.7,
+            "action_priority": 1,
+            "standard_subcategory": null,
+            "category_confidence": 0.75,
+            "urgency_score": 6.5,
+            "complexity_factor": 6.0,
+            "requires_specialized_labor": false,
+            "is_grouped": false,
+            "strategy_confidence": 0.8,
+            "strategy_reasoning": {
+              "reason": "Long description requires detailed analysis"
+            },
+            "data_quality_score": 0.96,
+            "data_quality_issues": []
+          },
+          {
+            "id": "I. Stairways (Interior and Exterior)_22",
+            "section": "I. Stairways (Interior and Exterior)",
+            "subsection": "K. Porches, Balconies, Decks, and Carports",
+            "status": "I",
+            "priority": "info",
+            "title": "Comments:",
+            "description": "Comments: The driveway has settled and has multiple cracks and uneven surfaces. Page 19 of 34 REI 7-6 (8/9/21) Promulgated by the Texas Real Estate Commission 1 (512) 936-3000 1 www. Trec. Texas. Gov Report Identification: 081625AD1, 18559 Denise Dale Ln, Houston, TX I=Inspected NI=Not Inspected NP=Not Present D=Deficient I NI NP D High soil and patio obscures the view of foundation and prevents visual inspection for termite and/or water penetration. Cracks in walkways, driveway and/or garage concrete observed, typical.",
+            "page_numbers": [
+              20,
+              21
+            ],
+            "estimated_cost": null,
+            "severity": "unknown",
+            "suggested_action": "",
+            "standard_category": "HVAC",
+            "standard_severity": "high",
+            "standard_action": "immediate_repair",
+            "extracted_attributes": {
+              "locations": [
+                "garage",
+                "den",
+                "driveway",
+                "walkway",
+                "patio",
+                "gate",
+                "foundation"
+              ],
+              "materials": [
+                "concrete"
+              ],
+              "damage_types": [
+                "crack",
+                "missing"
+              ]
+            },
+            "enrichment_metadata": {
+              "component_taxonomy": {
+                "category": "Grounds",
+                "subcategory": null,
+                "confidence": 0.65,
+                "original_item": "Comments:"
+              },
+              "attributes": {
+                "locations": [
+                  "yard",
+                  "fence",
+                  "gate"
+                ],
+                "damage_types": [
+                  "damaged"
+                ]
+              },
+              "property": {
+                "address": "1\n 18559 Denise Dale Ln, Houston, TX 77084",
+                "total_pages": 35,
+                "inspection_date": "Saturday, August 16, 2025"
+              },
+              "urgency_score": 7.0,
+              "complexity_factor": 6.0,
+              "specialized_labor": true,
+              "classification": {
+                "trade": "plumbing",
+                "trade_confidence": 0.6,
+                "work_type": "inspection",
+                "work_type_confidence": 0.9,
+                "complexity": "moderate",
+                "complexity_confidence": 0.75
+              },
+              "cost_strategy": {
+                "strategy": "llm_reasoning",
+                "confidence": 0.8,
+                "reasoning": {
+                  "reason": "Long description requires detailed analysis"
+                }
+              }
+            },
+            "classification": {
+              "trade": "hvac",
+              "trade_confidence": 0.95,
+              "work_type": "repair",
+              "work_type_confidence": 0.9,
+              "complexity": "complex",
+              "complexity_confidence": 0.8
+            },
+            "cost_strategy": "llm_reasoning",
+            "grouped_with": [
+              "group_1",
+              "group_3",
+              "group_2",
+              "group_9",
+              "group_20",
+              "group_16",
+              "group_4"
+            ],
+            "validation_status": "pending",
+            "severity_confidence": 0.7999999999999999,
+            "action_confidence": 0.7999999999999999,
+            "action_priority": 5,
+            "standard_subcategory": null,
+            "category_confidence": 0.65,
+            "urgency_score": 10.0,
+            "complexity_factor": 8.5,
+            "requires_specialized_labor": true,
+            "is_grouped": true,
+            "strategy_confidence": 0.85,
+            "strategy_reasoning": {
+              "reason": "High complexity requires contextual reasoning"
+            },
+            "data_quality_score": 0.58,
+            "data_quality_issues": [
+              "Appears to be section header, not issue"
+            ]
+          },
+          {
+            "id": "II. ELECTRICAL SYSTEMS_25",
+            "section": "II. ELECTRICAL SYSTEMS",
+            "subsection": "B. Branch Circuits, Connected Devices, and Fixtures",
+            "status": "I",
+            "priority": "info",
+            "title": "Type of Wiring: Copper",
+            "description": "Type of Wiring: Copper.",
+            "page_numbers": [
+              22
+            ],
+            "estimated_cost": null,
+            "severity": "unknown",
+            "suggested_action": "",
+            "standard_category": "Electrical",
+            "standard_severity": "low",
+            "standard_action": "unknown",
+            "extracted_attributes": {
+              "materials": [
+                "metal"
+              ]
+            },
+            "enrichment_metadata": {
+              "component_taxonomy": {
+                "category": "Grounds",
+                "subcategory": null,
+                "confidence": 0.65,
+                "original_item": "Comments:"
+              },
+              "attributes": {
+                "locations": [
+                  "yard",
+                  "fence",
+                  "gate"
+                ],
+                "damage_types": [
+                  "damaged"
+                ]
+              },
+              "property": {
+                "address": "1\n 18559 Denise Dale Ln, Houston, TX 77084",
+                "total_pages": 35,
+                "inspection_date": "Saturday, August 16, 2025"
+              },
+              "urgency_score": 7.0,
+              "complexity_factor": 6.0,
+              "specialized_labor": true,
+              "classification": {
+                "trade": "plumbing",
+                "trade_confidence": 0.6,
+                "work_type": "inspection",
+                "work_type_confidence": 0.9,
+                "complexity": "moderate",
+                "complexity_confidence": 0.75
+              },
+              "cost_strategy": {
+                "strategy": "llm_reasoning",
+                "confidence": 0.8,
+                "reasoning": {
+                  "reason": "Long description requires detailed analysis"
+                }
+              }
+            },
+            "classification": {
+              "trade": "electrical",
+              "trade_confidence": 0.95,
+              "work_type": "repair",
+              "work_type_confidence": 0.5,
+              "complexity": "complex",
+              "complexity_confidence": 0.8
+            },
+            "cost_strategy": "llm_reasoning",
+            "grouped_with": [
+              "group_25",
+              "group_26"
+            ],
+            "validation_status": "pending",
+            "severity_confidence": 0.7,
+            "action_confidence": 0.0,
+            "action_priority": 0,
+            "standard_subcategory": "wiring",
+            "category_confidence": 0.7124999999999999,
+            "urgency_score": 6.0,
+            "complexity_factor": 7.5,
+            "requires_specialized_labor": true,
+            "is_grouped": true,
+            "strategy_confidence": 0.85,
+            "strategy_reasoning": {
+              "reason": "High complexity requires contextual reasoning"
+            },
+            "data_quality_score": 0.9,
+            "data_quality_issues": []
+          },
+          {
+            "id": "III. HEATING, VENTILATION AND AIR CONDITIONING SYSTEMS_29",
+            "section": "III. HEATING, VENTILATION AND AIR CONDITIONING SYSTEMS",
+            "subsection": "B. Cooling Equipment",
+            "status": "I",
+            "priority": "info",
+            "title": "Type of Systems: Central and Zoned",
+            "description": "Type of Systems: Central and Zoned.",
+            "page_numbers": [
+              25
+            ],
+            "estimated_cost": null,
+            "severity": "unknown",
+            "suggested_action": "",
+            "standard_category": "HVAC",
+            "standard_severity": "low",
+            "standard_action": "unknown",
+            "extracted_attributes": {},
+            "enrichment_metadata": {
+              "component_taxonomy": {
+                "category": "Grounds",
+                "subcategory": null,
+                "confidence": 0.65,
+                "original_item": "Comments:"
+              },
+              "attributes": {
+                "locations": [
+                  "yard",
+                  "fence",
+                  "gate"
+                ],
+                "damage_types": [
+                  "damaged"
+                ]
+              },
+              "property": {
+                "address": "1\n 18559 Denise Dale Ln, Houston, TX 77084",
+                "total_pages": 35,
+                "inspection_date": "Saturday, August 16, 2025"
+              },
+              "urgency_score": 7.0,
+              "complexity_factor": 6.0,
+              "specialized_labor": true,
+              "classification": {
+                "trade": "plumbing",
+                "trade_confidence": 0.6,
+                "work_type": "inspection",
+                "work_type_confidence": 0.9,
+                "complexity": "moderate",
+                "complexity_confidence": 0.75
+              },
+              "cost_strategy": {
+                "strategy": "llm_reasoning",
+                "confidence": 0.8,
+                "reasoning": {
+                  "reason": "Long description requires detailed analysis"
+                }
+              }
+            },
+            "classification": {
+              "trade": "hvac",
+              "trade_confidence": 0.95,
+              "work_type": "repair",
+              "work_type_confidence": 0.5,
+              "complexity": "complex",
+              "complexity_confidence": 0.8
+            },
+            "cost_strategy": "llm_reasoning",
+            "grouped_with": [
+              "group_3",
+              "group_2"
+            ],
+            "validation_status": "pending",
+            "severity_confidence": 0.7,
+            "action_confidence": 0.0,
+            "action_priority": 0,
+            "standard_subcategory": null,
+            "category_confidence": 0.65,
+            "urgency_score": 6.0,
+            "complexity_factor": 7.5,
+            "requires_specialized_labor": true,
+            "is_grouped": true,
+            "strategy_confidence": 0.85,
+            "strategy_reasoning": {
+              "reason": "High complexity requires contextual reasoning"
+            },
+            "data_quality_score": 0.9199999999999999,
+            "data_quality_issues": []
+          },
+          {
+            "id": "III. HEATING, VENTILATION AND AIR CONDITIONING SYSTEMS_31",
+            "section": "III. HEATING, VENTILATION AND AIR CONDITIONING SYSTEMS",
+            "subsection": "C. Duct Systems, Chases, and Vents",
+            "status": "I",
+            "priority": "info",
+            "title": "Comments:",
+            "description": "Comments: The HVAC ductwork appears to be older duct work. During the inspection, some registers showed visible dirt and possible microbial growth, indicating a buildup of debris within the system. While no major damage was noted, aging ductwork can develop air leaks, insulation breakdown, and reduced efficiency over time. Recommended to have the ductwork professionally cleaned to address the observed debris and potential microbial contaminants. In addition, a licensed HVAC contractor should evaluate the overall condition of the duct system to determine if any sealing, repairs, or full replacement is needed to improve air quality and system performance. F Client Advisory: This company does not inspect the interior of the HVAC Duct System. We do not inspect for, and are not qualified to render opinions on, any type of environmentalor other bio-hazards. If this is a concernor potential concern, Inspector recommends contacting a qualified professional of your choice for further information / investigation. Page 25 of 34 REI 7-6 (8/9/21) Promulgated by the Texas Real Estate Commission 1 (512) 936-3000 1 www. Trec. Texas. Gov Report Identification: 081625AD1, 18559 Denise Dale Ln, Houston, TX I=Inspected NI=Not Inspected NP=Not Present D=Deficient I NI NP D.",
+            "page_numbers": [
+              26,
+              27
+            ],
+            "estimated_cost": null,
+            "severity": "unknown",
+            "suggested_action": "",
+            "standard_category": "HVAC",
+            "standard_severity": "high",
+            "standard_action": "replacement",
+            "extracted_attributes": {
+              "locations": [
+                "den",
+                "interior",
+                "gate"
+              ],
+              "materials": [
+                "metal",
+                "concrete"
+              ],
+              "damage_types": [
+                "water_damage",
+                "wear",
+                "missing"
+              ],
+              "safety_related": true
+            },
+            "enrichment_metadata": {
+              "component_taxonomy": {
+                "category": "Grounds",
+                "subcategory": null,
+                "confidence": 0.65,
+                "original_item": "Comments:"
+              },
+              "attributes": {
+                "locations": [
+                  "yard",
+                  "fence",
+                  "gate"
+                ],
+                "damage_types": [
+                  "damaged"
+                ]
+              },
+              "property": {
+                "address": "1\n 18559 Denise Dale Ln, Houston, TX 77084",
+                "total_pages": 35,
+                "inspection_date": "Saturday, August 16, 2025"
+              },
+              "urgency_score": 7.0,
+              "complexity_factor": 6.0,
+              "specialized_labor": true,
+              "classification": {
+                "trade": "plumbing",
+                "trade_confidence": 0.6,
+                "work_type": "inspection",
+                "work_type_confidence": 0.9,
+                "complexity": "moderate",
+                "complexity_confidence": 0.75
+              },
+              "cost_strategy": {
+                "strategy": "llm_reasoning",
+                "confidence": 0.8,
+                "reasoning": {
+                  "reason": "Long description requires detailed analysis"
+                }
+              }
+            },
+            "classification": {
+              "trade": "hvac",
+              "trade_confidence": 0.95,
+              "work_type": "replacement",
+              "work_type_confidence": 0.9,
+              "complexity": "complex",
+              "complexity_confidence": 0.9
+            },
+            "cost_strategy": "llm_reasoning",
+            "grouped_with": [
+              "group_1",
+              "group_31",
+              "group_14",
+              "group_30",
+              "group_4"
+            ],
+            "validation_status": "pending",
+            "severity_confidence": 0.7999999999999999,
+            "action_confidence": 0.8,
+            "action_priority": 4,
+            "standard_subcategory": null,
+            "category_confidence": 0.6,
+            "safety_flag": true,
+            "urgency_score": 10.0,
+            "complexity_factor": 9.5,
+            "requires_specialized_labor": true,
+            "is_grouped": true,
+            "strategy_confidence": 0.85,
+            "strategy_reasoning": {
+              "reason": "High complexity requires contextual reasoning"
+            },
+            "data_quality_score": 0.6,
+            "data_quality_issues": [
+              "Appears to be section header, not issue"
+            ]
+          },
+          {
+            "id": "IV. PLUMBING SYSTEMS_33",
+            "section": "IV. PLUMBING SYSTEMS",
+            "subsection": "A. Plumbing Supply, Distribution Systems and Fixtures",
+            "status": "I",
+            "priority": "info",
+            "title": "galvanized",
+            "description": "Galvanized.",
+            "page_numbers": [
+              27
+            ],
+            "estimated_cost": null,
+            "severity": "unknown",
+            "suggested_action": "",
+            "standard_category": "Plumbing",
+            "standard_severity": "low",
+            "standard_action": "unknown",
+            "extracted_attributes": {
+              "materials": [
+                "metal"
+              ]
+            },
+            "enrichment_metadata": {
+              "component_taxonomy": {
+                "category": "Grounds",
+                "subcategory": null,
+                "confidence": 0.65,
+                "original_item": "Comments:"
+              },
+              "attributes": {
+                "locations": [
+                  "yard",
+                  "fence",
+                  "gate"
+                ],
+                "damage_types": [
+                  "damaged"
+                ]
+              },
+              "property": {
+                "address": "1\n 18559 Denise Dale Ln, Houston, TX 77084",
+                "total_pages": 35,
+                "inspection_date": "Saturday, August 16, 2025"
+              },
+              "urgency_score": 7.0,
+              "complexity_factor": 6.0,
+              "specialized_labor": true,
+              "classification": {
+                "trade": "plumbing",
+                "trade_confidence": 0.6,
+                "work_type": "inspection",
+                "work_type_confidence": 0.9,
+                "complexity": "moderate",
+                "complexity_confidence": 0.75
+              },
+              "cost_strategy": {
+                "strategy": "llm_reasoning",
+                "confidence": 0.8,
+                "reasoning": {
+                  "reason": "Long description requires detailed analysis"
+                }
+              }
+            },
+            "classification": {
+              "trade": "plumbing",
+              "trade_confidence": 0.95,
+              "work_type": "repair",
+              "work_type_confidence": 0.5,
+              "complexity": "complex",
+              "complexity_confidence": 0.8
+            },
+            "cost_strategy": "llm_reasoning",
+            "grouped_with": [
+              "group_35",
+              "group_36"
+            ],
+            "validation_status": "pending",
+            "severity_confidence": 0.7,
+            "action_confidence": 0.0,
+            "action_priority": 0,
+            "standard_subcategory": null,
+            "category_confidence": 0.6,
+            "urgency_score": 6.0,
+            "complexity_factor": 7.0,
+            "requires_specialized_labor": true,
+            "is_grouped": true,
+            "strategy_confidence": 0.85,
+            "strategy_reasoning": {
+              "reason": "High complexity requires contextual reasoning"
+            },
+            "data_quality_score": 0.5399999999999999,
+            "data_quality_issues": [
+              "Low semantic meaningfulness score"
+            ]
+          },
+          {
+            "id": "IV. PLUMBING SYSTEMS_35",
+            "section": "IV. PLUMBING SYSTEMS",
+            "subsection": "B. Drains, Wastes, and Vents",
+            "status": "I",
+            "priority": "info",
+            "title": "Type of drain piping material: Plastic",
+            "description": "Type of drain piping material: Plastic.",
+            "page_numbers": [
+              29
+            ],
+            "estimated_cost": null,
+            "severity": "unknown",
+            "suggested_action": "",
+            "standard_category": "Plumbing",
+            "standard_severity": "low",
+            "standard_action": "unknown",
+            "extracted_attributes": {
+              "materials": [
+                "plastic"
+              ]
+            },
+            "enrichment_metadata": {
+              "component_taxonomy": {
+                "category": "Grounds",
+                "subcategory": null,
+                "confidence": 0.65,
+                "original_item": "Comments:"
+              },
+              "attributes": {
+                "locations": [
+                  "yard",
+                  "fence",
+                  "gate"
+                ],
+                "damage_types": [
+                  "damaged"
+                ]
+              },
+              "property": {
+                "address": "1\n 18559 Denise Dale Ln, Houston, TX 77084",
+                "total_pages": 35,
+                "inspection_date": "Saturday, August 16, 2025"
+              },
+              "urgency_score": 7.0,
+              "complexity_factor": 6.0,
+              "specialized_labor": true,
+              "classification": {
+                "trade": "plumbing",
+                "trade_confidence": 0.6,
+                "work_type": "inspection",
+                "work_type_confidence": 0.9,
+                "complexity": "moderate",
+                "complexity_confidence": 0.75
+              },
+              "cost_strategy": {
+                "strategy": "llm_reasoning",
+                "confidence": 0.8,
+                "reasoning": {
+                  "reason": "Long description requires detailed analysis"
+                }
+              }
+            },
+            "classification": {
+              "trade": "plumbing",
+              "trade_confidence": 0.95,
+              "work_type": "repair",
+              "work_type_confidence": 0.5,
+              "complexity": "complex",
+              "complexity_confidence": 0.8
+            },
+            "cost_strategy": "llm_reasoning",
+            "grouped_with": [
+              "group_35",
+              "group_36"
+            ],
+            "validation_status": "pending",
+            "severity_confidence": 0.7,
+            "action_confidence": 0.0,
+            "action_priority": 0,
+            "standard_subcategory": null,
+            "category_confidence": 0.675,
+            "urgency_score": 6.0,
+            "complexity_factor": 7.0,
+            "requires_specialized_labor": true,
+            "is_grouped": true,
+            "strategy_confidence": 0.85,
+            "strategy_reasoning": {
+              "reason": "High complexity requires contextual reasoning"
+            },
+            "data_quality_score": 0.9199999999999999,
+            "data_quality_issues": []
+          },
+          {
+            "id": "IV. PLUMBING SYSTEMS_37",
+            "section": "IV. PLUMBING SYSTEMS",
+            "subsection": "C. Water Heating Equipment",
+            "status": "I",
+            "priority": "high",
+            "title": "Energy Sources: Natural Gas",
+            "description": "Energy Sources: Natural Gas Capacity: 40 Gal.",
+            "page_numbers": [
+              29
+            ],
+            "estimated_cost": null,
+            "severity": "unknown",
+            "suggested_action": "",
+            "standard_category": "HVAC",
+            "standard_severity": "high",
+            "standard_action": "unknown",
+            "extracted_attributes": {},
+            "enrichment_metadata": {
+              "component_taxonomy": {
+                "category": "Grounds",
+                "subcategory": null,
+                "confidence": 0.65,
+                "original_item": "Comments:"
+              },
+              "attributes": {
+                "locations": [
+                  "yard",
+                  "fence",
+                  "gate"
+                ],
+                "damage_types": [
+                  "damaged"
+                ]
+              },
+              "property": {
+                "address": "1\n 18559 Denise Dale Ln, Houston, TX 77084",
+                "total_pages": 35,
+                "inspection_date": "Saturday, August 16, 2025"
+              },
+              "urgency_score": 7.0,
+              "complexity_factor": 6.0,
+              "specialized_labor": true,
+              "classification": {
+                "trade": "plumbing",
+                "trade_confidence": 0.6,
+                "work_type": "inspection",
+                "work_type_confidence": 0.9,
+                "complexity": "moderate",
+                "complexity_confidence": 0.75
+              },
+              "cost_strategy": {
+                "strategy": "llm_reasoning",
+                "confidence": 0.8,
+                "reasoning": {
+                  "reason": "Long description requires detailed analysis"
+                }
+              }
+            },
+            "classification": {
+              "trade": "hvac",
+              "trade_confidence": 0.95,
+              "work_type": "repair",
+              "work_type_confidence": 0.5,
+              "complexity": "complex",
+              "complexity_confidence": 0.8
+            },
+            "cost_strategy": "llm_reasoning",
+            "grouped_with": [
+              "group_3",
+              "group_2"
+            ],
+            "validation_status": "pending",
+            "severity_confidence": 0.7999999999999999,
+            "action_confidence": 0.0,
+            "action_priority": 0,
+            "standard_subcategory": null,
+            "category_confidence": 0.65,
+            "urgency_score": 8.0,
+            "complexity_factor": 7.5,
+            "requires_specialized_labor": true,
+            "is_grouped": true,
+            "strategy_confidence": 0.85,
+            "strategy_reasoning": {
+              "reason": "High complexity requires contextual reasoning"
+            },
+            "data_quality_score": 0.94,
+            "data_quality_issues": []
+          },
+          {
+            "id": "IV. PLUMBING SYSTEMS_40",
+            "section": "IV. PLUMBING SYSTEMS",
+            "subsection": "E. Gas Distribution Systems and Gas Appliances",
+            "status": "I",
+            "priority": "info",
+            "title": "Comments:",
+            "description": "Comments: GAS SUPPLY SYSTEMS: Pressure test of gas lines has been specifically excluded. OBSERVED BRANCH LINES: Galvanized and/or black iron Gas line run in copper; not approved flex line. Did not observe gas line drip leg(s) on gas house heater and/or gas water heaters which are called for in the manufacturer's installation instructions. Unable to determine if above ground gas lines are properly bonded as required by 2006 Page 30 of 34 REI 7-6 (8/9/21) Promulgated by the Texas Real Estate Commission 1 (512) 936-3000 1 www. Trec. Texas. Gov Report Identification: 081625AD1, 18559 Denise Dale Ln, Houston, TX I=Inspected NI=Not Inspected NP=Not Present D=Deficient I NI NP D IRC/G2411.1 (310). CONNECTIONS: Proper flex F.",
+            "page_numbers": [
+              31,
+              32
+            ],
+            "estimated_cost": null,
+            "severity": "unknown",
+            "suggested_action": "",
+            "standard_category": "HVAC",
+            "standard_severity": "high",
+            "standard_action": "immediate_repair",
+            "extracted_attributes": {
+              "locations": [
+                "den",
+                "gate"
+              ],
+              "materials": [
+                "metal"
+              ],
+              "damage_types": [
+                "missing"
+              ]
+            },
+            "enrichment_metadata": {
+              "component_taxonomy": {
+                "category": "Grounds",
+                "subcategory": null,
+                "confidence": 0.65,
+                "original_item": "Comments:"
+              },
+              "attributes": {
+                "locations": [
+                  "yard",
+                  "fence",
+                  "gate"
+                ],
+                "damage_types": [
+                  "damaged"
+                ]
+              },
+              "property": {
+                "address": "1\n 18559 Denise Dale Ln, Houston, TX 77084",
+                "total_pages": 35,
+                "inspection_date": "Saturday, August 16, 2025"
+              },
+              "urgency_score": 7.0,
+              "complexity_factor": 6.0,
+              "specialized_labor": true,
+              "classification": {
+                "trade": "plumbing",
+                "trade_confidence": 0.6,
+                "work_type": "inspection",
+                "work_type_confidence": 0.9,
+                "complexity": "moderate",
+                "complexity_confidence": 0.75
+              },
+              "cost_strategy": {
+                "strategy": "llm_reasoning",
+                "confidence": 0.8,
+                "reasoning": {
+                  "reason": "Long description requires detailed analysis"
+                }
+              }
+            },
+            "classification": {
+              "trade": "hvac",
+              "trade_confidence": 0.95,
+              "work_type": "repair",
+              "work_type_confidence": 0.9,
+              "complexity": "complex",
+              "complexity_confidence": 0.8
+            },
+            "cost_strategy": "llm_reasoning",
+            "grouped_with": [
+              "group_1",
+              "group_3",
+              "group_4",
+              "group_2"
+            ],
+            "validation_status": "pending",
+            "severity_confidence": 0.7999999999999999,
+            "action_confidence": 0.7999999999999999,
+            "action_priority": 5,
+            "standard_subcategory": null,
+            "category_confidence": 0.65,
+            "urgency_score": 10.0,
+            "complexity_factor": 7.5,
+            "requires_specialized_labor": true,
+            "is_grouped": true,
+            "strategy_confidence": 0.85,
+            "strategy_reasoning": {
+              "reason": "High complexity requires contextual reasoning"
+            },
+            "data_quality_score": 0.5399999999999999,
+            "data_quality_issues": [
+              "Appears to be section header, not issue"
+            ]
+          },
+          {
+            "id": "IV. PLUMBING SYSTEMS_41",
+            "section": "IV. PLUMBING SYSTEMS",
+            "subsection": "E. Gas Distribution Systems and Gas Appliances",
+            "status": "I",
+            "priority": "high",
+            "title": "Buyers note: Gas Appliance Connectors (GAC's) are not electrically bonded",
+            "description": "Buyers note: Gas Appliance Connectors (GAC's) are not electrically bonded. Gas Appliance Connectors (GAC's) are the short run of yellow corrugated gas line similar in composition to Corrugated Stainless Steel Tubing (CSST) that connects gas appliances such as kitchen appliances, clothes dryers, water heaters, and house heaters to the natural gas piping in the home. Corrugated Stainless Steel Tubing(CSST) which is a similar material as Gas Appliance Connectors (GAC's), has been linked to fires caused from direct and indirect / close proximity lightning strikes. The lightning strikes have been linked to punctures / holes in the thin stainless steel tubing and igniting fires. CSST is now required to be properly bonded in an attempt to make it a safer product.",
+            "page_numbers": [
+              32
+            ],
+            "estimated_cost": null,
+            "severity": "unknown",
+            "suggested_action": "",
+            "standard_category": "Electrical",
+            "standard_severity": "high",
+            "standard_action": "unknown",
+            "extracted_attributes": {
+              "locations": [
+                "kitchen",
+                "gate"
+              ],
+              "materials": [
+                "metal",
+                "carpet"
+              ]
+            },
+            "enrichment_metadata": {
+              "component_taxonomy": {
+                "category": "Grounds",
+                "subcategory": null,
+                "confidence": 0.65,
+                "original_item": "Comments:"
+              },
+              "attributes": {
+                "locations": [
+                  "yard",
+                  "fence",
+                  "gate"
+                ],
+                "damage_types": [
+                  "damaged"
+                ]
+              },
+              "property": {
+                "address": "1\n 18559 Denise Dale Ln, Houston, TX 77084",
+                "total_pages": 35,
+                "inspection_date": "Saturday, August 16, 2025"
+              },
+              "urgency_score": 7.0,
+              "complexity_factor": 6.0,
+              "specialized_labor": true,
+              "classification": {
+                "trade": "plumbing",
+                "trade_confidence": 0.6,
+                "work_type": "inspection",
+                "work_type_confidence": 0.9,
+                "complexity": "moderate",
+                "complexity_confidence": 0.75
+              },
+              "cost_strategy": {
+                "strategy": "llm_reasoning",
+                "confidence": 0.8,
+                "reasoning": {
+                  "reason": "Long description requires detailed analysis"
+                }
+              }
+            },
+            "classification": {
+              "trade": "electrical",
+              "trade_confidence": 0.95,
+              "work_type": "repair",
+              "work_type_confidence": 0.5,
+              "complexity": "complex",
+              "complexity_confidence": 0.8
+            },
+            "cost_strategy": "llm_reasoning",
+            "grouped_with": [
+              "group_33",
+              "group_25",
+              "group_24",
+              "group_26"
+            ],
+            "validation_status": "pending",
+            "severity_confidence": 0.7999999999999999,
+            "action_confidence": 0.0,
+            "action_priority": 0,
+            "standard_subcategory": null,
+            "category_confidence": 0.75,
+            "urgency_score": 8.0,
+            "complexity_factor": 7.5,
+            "requires_specialized_labor": true,
+            "is_grouped": true,
+            "strategy_confidence": 0.85,
+            "strategy_reasoning": {
+              "reason": "High complexity requires contextual reasoning"
+            },
+            "data_quality_score": 0.9199999999999999,
+            "data_quality_issues": []
+          },
+          {
+            "id": "V. APPLIANCES_50",
+            "section": "V. APPLIANCES",
+            "subsection": "H. Dryer Exhaust Systems",
+            "status": "I",
+            "priority": "info",
+            "title": "Comments:",
+            "description": "Comments: Dryer vent contains lint buildup. Recommend cleaning dryer vent to reduce drying time. Proper venting to the exterior was not verified. Recommend cleaning dryer vent periodically to reduce drying time and risk of fire hazard.",
+            "page_numbers": [
+              34
+            ],
+            "estimated_cost": null,
+            "severity": "unknown",
+            "suggested_action": "",
+            "standard_category": "Exterior",
+            "standard_severity": "high",
+            "standard_action": "immediate_repair",
+            "extracted_attributes": {
+              "locations": [
+                "exterior"
+              ],
+              "safety_related": true
+            },
+            "enrichment_metadata": {
+              "component_taxonomy": {
+                "category": "Grounds",
+                "subcategory": null,
+                "confidence": 0.65,
+                "original_item": "Comments:"
+              },
+              "attributes": {
+                "locations": [
+                  "yard",
+                  "fence",
+                  "gate"
+                ],
+                "damage_types": [
+                  "damaged"
+                ]
+              },
+              "property": {
+                "address": "1\n 18559 Denise Dale Ln, Houston, TX 77084",
+                "total_pages": 35,
+                "inspection_date": "Saturday, August 16, 2025"
+              },
+              "urgency_score": 7.0,
+              "complexity_factor": 6.0,
+              "specialized_labor": true,
+              "classification": {
+                "trade": "plumbing",
+                "trade_confidence": 0.6,
+                "work_type": "inspection",
+                "work_type_confidence": 0.9,
+                "complexity": "moderate",
+                "complexity_confidence": 0.75
+              },
+              "cost_strategy": {
+                "strategy": "llm_reasoning",
+                "confidence": 0.8,
+                "reasoning": {
+                  "reason": "Long description requires detailed analysis"
+                }
+              }
+            },
+            "classification": {
+              "trade": "carpentry",
+              "trade_confidence": 0.95,
+              "work_type": "repair",
+              "work_type_confidence": 0.9,
+              "complexity": "moderate",
+              "complexity_confidence": 0.75
+            },
+            "cost_strategy": "llm_reasoning",
+            "grouped_with": [
+              "group_32"
+            ],
+            "validation_status": "pending",
+            "severity_confidence": 0.7999999999999999,
+            "action_confidence": 0.7999999999999999,
+            "action_priority": 5,
+            "standard_subcategory": null,
+            "category_confidence": 0.6,
+            "safety_flag": true,
+            "urgency_score": 10.0,
+            "complexity_factor": 5.0,
+            "requires_specialized_labor": false,
+            "is_grouped": true,
+            "strategy_confidence": 0.8,
+            "strategy_reasoning": {
+              "reason": "Long description requires detailed analysis"
+            },
+            "data_quality_score": 0.58,
+            "data_quality_issues": [
+              "Appears to be section header, not issue"
+            ]
+          },
+          {
+            "id": "VI. OPTIONAL SYSTEMS_52",
+            "section": "VI. OPTIONAL SYSTEMS",
+            "subsection": "A. Landscape Irrigation (Sprinkler) Systems",
+            "status": "I",
+            "priority": "info",
+            "title": "Comments:",
+            "description": "Comments: Damaged water line, water gusher in the yard; Station(s) #3 & #4 Sprinkler system was observed to stays on even in off position, possible valves and/or control was not functionalor malfunction. Recommend further investigation by qualified professional and repair as needed. Oneor more spray heads need adjustment for proper yard cover and reduced overspray on the house, fence, and paved areas. No rain sensor present. Page 34 of 34 REI 7-6 (8/9/21) Promulgated by the Texas Real Estate Commission 1 (512) 936-3000 1 www. Trec. Texas. Gov.",
+            "page_numbers": [
+              35
+            ],
+            "estimated_cost": null,
+            "severity": "unknown",
+            "suggested_action": "",
+            "standard_category": "Grounds",
+            "standard_severity": "low",
+            "standard_action": "further_inspection",
+            "extracted_attributes": {
+              "locations": [
+                "yard",
+                "fence",
+                "gate"
+              ],
+              "damage_types": [
+                "damaged"
+              ]
+            },
+            "enrichment_metadata": {
+              "component_taxonomy": {
+                "category": "Grounds",
+                "subcategory": null,
+                "confidence": 0.65,
+                "original_item": "Comments:"
+              },
+              "attributes": {
+                "locations": [
+                  "yard",
+                  "fence",
+                  "gate"
+                ],
+                "damage_types": [
+                  "damaged"
+                ]
+              },
+              "property": {
+                "address": "1\n 18559 Denise Dale Ln, Houston, TX 77084",
+                "total_pages": 35,
+                "inspection_date": "Saturday, August 16, 2025"
+              },
+              "urgency_score": 7.0,
+              "complexity_factor": 6.0,
+              "specialized_labor": true,
+              "classification": {
+                "trade": "plumbing",
+                "trade_confidence": 0.6,
+                "work_type": "inspection",
+                "work_type_confidence": 0.9,
+                "complexity": "moderate",
+                "complexity_confidence": 0.75
+              },
+              "cost_strategy": {
+                "strategy": "llm_reasoning",
+                "confidence": 0.8,
+                "reasoning": {
+                  "reason": "Long description requires detailed analysis"
+                }
+              }
+            },
+            "classification": {
+              "trade": "plumbing",
+              "trade_confidence": 0.6,
+              "work_type": "inspection",
+              "work_type_confidence": 0.9,
+              "complexity": "moderate",
+              "complexity_confidence": 0.75
+            },
+            "cost_strategy": "llm_reasoning",
+            "grouped_with": [
+              "group_34",
+              "group_38"
+            ],
+            "validation_status": "pending",
+            "severity_confidence": 0.7,
+            "action_confidence": 0.8,
+            "action_priority": 3,
+            "standard_subcategory": null,
+            "category_confidence": 0.65,
+            "urgency_score": 7.0,
+            "complexity_factor": 6.0,
+            "requires_specialized_labor": true,
+            "is_grouped": true,
+            "strategy_confidence": 0.8,
+            "strategy_reasoning": {
+              "reason": "Long description requires detailed analysis"
+            },
+            "data_quality_score": 0.6,
+            "data_quality_issues": [
+              "Appears to be section header, not issue"
+            ]
+          }
+        ],
+        "savings_pct": 0.2,
+        "reason": "All general_contractor work can be scheduled together"
+      }
+    ],
+    "isolated_issues": [],
+    "statistics": {
+      "total_issues": 15,
+      "issues_in_chains": 15,
+      "isolated_issues": 0,
+      "potential_bundles": 1,
+      "estimated_savings": {
+        "total_bundles": 1,
+        "average_savings_pct": 0.2,
+        "max_savings_pct": 0.2
+      }
+    }
+  },
+  "cost_estimates": []
+}

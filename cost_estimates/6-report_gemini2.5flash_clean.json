@@ -1,0 +1,911 @@
+{
+  "metadata": {
+    "generated_at": "2025-10-22T16:11:37.197621",
+    "model": "gemini-2.5-flash",
+    "temperature": 0.3,
+    "pipeline_version": "enhanced_v1.0",
+    "features_enabled": {
+      "database_lookup": true,
+      "relationship_analysis": true,
+      "specialist_prompts": true
+    },
+    "property_data": {}
+  },
+  "summary": {
+    "total_issues": 53,
+    "database_matches": 0,
+    "ai_estimates": 3,
+    "hybrid_estimates": 0,
+    "high_confidence": 0,
+    "needs_review": 3,
+    "bundles_identified": 1,
+    "data_quality_excluded": 50,
+    "data_quality_flagged": 0,
+    "estimation_auto_corrected": 0,
+    "estimation_validation_failed": 0,
+    "total_estimated_low": 750,
+    "total_estimated_high": 23550,
+    "average_confidence": 66.16666666666667
+  },
+  "relationships": {
+    "causal_chains": [],
+    "bundles": [
+      {
+        "bundle_type": "same_contractor",
+        "contractor_type": "general_contractor",
+        "issues": [
+          {
+            "id": "I. STRUCTURAL SYSTEMS_9",
+            "section": "I. STRUCTURAL SYSTEMS",
+            "subsection": "C. Roof Covering Materials",
+            "status": "I",
+            "priority": "high",
+            "title": "Types of Roof Covering: Composition",
+            "description": "Types of Roof Covering: Composition Viewed From: Roof Level.",
+            "page_numbers": [
+              11
+            ],
+            "estimated_cost": null,
+            "severity": "unknown",
+            "suggested_action": "",
+            "standard_category": "Roofing",
+            "standard_severity": "medium",
+            "standard_action": "unknown",
+            "extracted_attributes": {
+              "locations": [
+                "roof"
+              ]
+            },
+            "enrichment_metadata": {
+              "component_taxonomy": {
+                "category": "Grounds",
+                "subcategory": null,
+                "confidence": 0.65,
+                "original_item": "Comments:"
+              },
+              "attributes": {
+                "locations": [
+                  "yard",
+                  "fence",
+                  "gate"
+                ],
+                "damage_types": [
+                  "damaged"
+                ]
+              },
+              "property": {
+                "address": "1\n 18559 Denise Dale Ln, Houston, TX 77084",
+                "total_pages": 35,
+                "inspection_date": "Saturday, August 16, 2025"
+              },
+              "urgency_score": 7.0,
+              "complexity_factor": 6.0,
+              "specialized_labor": true,
+              "classification": {
+                "trade": "plumbing",
+                "trade_confidence": 0.6,
+                "work_type": "inspection",
+                "work_type_confidence": 0.9,
+                "complexity": "moderate",
+                "complexity_confidence": 0.75
+              },
+              "cost_strategy": {
+                "strategy": "llm_reasoning",
+                "confidence": 0.8,
+                "reasoning": {
+                  "reason": "Long description requires detailed analysis"
+                }
+              }
+            },
+            "classification": {
+              "trade": "roofing",
+              "trade_confidence": 0.95,
+              "work_type": "repair",
+              "work_type_confidence": 0.5,
+              "complexity": "complex",
+              "complexity_confidence": 0.8
+            },
+            "cost_strategy": "llm_reasoning",
+            "grouped_with": [],
+            "validation_status": "pending",
+            "severity_confidence": 0.7999999999999999,
+            "action_confidence": 0.0,
+            "action_priority": 0,
+            "standard_subcategory": null,
+            "category_confidence": 0.675,
+            "urgency_score": 7.0,
+            "complexity_factor": 7.0,
+            "requires_specialized_labor": true,
+            "is_grouped": false,
+            "strategy_confidence": 0.85,
+            "strategy_reasoning": {
+              "reason": "High complexity requires contextual reasoning"
+            },
+            "data_quality_score": 0.94,
+            "data_quality_issues": []
+          },
+          {
+            "id": "I. STRUCTURAL SYSTEMS_15",
+            "section": "I. STRUCTURAL SYSTEMS",
+            "subsection": "E. Walls (Interior and Exterior)",
+            "status": "I",
+            "priority": "info",
+            "title": "Buyer's note: Fresh paint observed on interior surfaces can mask distress indicators",
+            "description": "Buyer's note: Fresh paint observed on interior surfaces can mask distress indicators. Page 14 of 34 REI 7-6 (8/9/21) Promulgated by the Texas Real Estate Commission 1 (512) 936-3000 1 www. Trec. Texas. Gov Report Identification: 081625AD1, 18559 Denise Dale Ln, Houston, TX I=Inspected NI=Not Inspected NP=Not Present D=Deficient I NI NP D Observed multiple plug-in fragrance devices, could potentially be used to cover up foul odors. F.",
+            "page_numbers": [
+              15,
+              16
+            ],
+            "estimated_cost": null,
+            "severity": "unknown",
+            "suggested_action": "",
+            "standard_category": "Interior",
+            "standard_severity": "low",
+            "standard_action": "monitoring",
+            "extracted_attributes": {
+              "locations": [
+                "den",
+                "interior",
+                "gate"
+              ],
+              "materials": [
+                "paint"
+              ],
+              "damage_types": [
+                "missing"
+              ]
+            },
+            "enrichment_metadata": {
+              "component_taxonomy": {
+                "category": "Grounds",
+                "subcategory": null,
+                "confidence": 0.65,
+                "original_item": "Comments:"
+              },
+              "attributes": {
+                "locations": [
+                  "yard",
+                  "fence",
+                  "gate"
+                ],
+                "damage_types": [
+                  "damaged"
+                ]
+              },
+              "property": {
+                "address": "1\n 18559 Denise Dale Ln, Houston, TX 77084",
+                "total_pages": 35,
+                "inspection_date": "Saturday, August 16, 2025"
+              },
+              "urgency_score": 7.0,
+              "complexity_factor": 6.0,
+              "specialized_labor": true,
+              "classification": {
+                "trade": "plumbing",
+                "trade_confidence": 0.6,
+                "work_type": "inspection",
+                "work_type_confidence": 0.9,
+                "complexity": "moderate",
+                "complexity_confidence": 0.75
+              },
+              "cost_strategy": {
+                "strategy": "llm_reasoning",
+                "confidence": 0.8,
+                "reasoning": {
+                  "reason": "Long description requires detailed analysis"
+                }
+              }
+            },
+            "classification": {
+              "trade": "painting",
+              "trade_confidence": 0.95,
+              "work_type": "monitoring",
+              "work_type_confidence": 0.9,
+              "complexity": "moderate",
+              "complexity_confidence": 0.75
+            },
+            "cost_strategy": "llm_reasoning",
+            "grouped_with": [],
+            "validation_status": "pending",
+            "severity_confidence": 0.7,
+            "action_confidence": 0.7,
+            "action_priority": 1,
+            "standard_subcategory": null,
+            "category_confidence": 0.75,
+            "urgency_score": 6.5,
+            "complexity_factor": 6.0,
+            "requires_specialized_labor": false,
+            "is_grouped": false,
+            "strategy_confidence": 0.8,
+            "strategy_reasoning": {
+              "reason": "Long description requires detailed analysis"
+            },
+            "data_quality_score": 0.96,
+            "data_quality_issues": []
+          },
+          {
+            "id": "IV. PLUMBING SYSTEMS_41",
+            "section": "IV. PLUMBING SYSTEMS",
+            "subsection": "E. Gas Distribution Systems and Gas Appliances",
+            "status": "I",
+            "priority": "high",
+            "title": "Buyers note: Gas Appliance Connectors (GAC's) are not electrically bonded",
+            "description": "Buyers note: Gas Appliance Connectors (GAC's) are not electrically bonded. Gas Appliance Connectors (GAC's) are the short run of yellow corrugated gas line similar in composition to Corrugated Stainless Steel Tubing (CSST) that connects gas appliances such as kitchen appliances, clothes dryers, water heaters, and house heaters to the natural gas piping in the home. Corrugated Stainless Steel Tubing(CSST) which is a similar material as Gas Appliance Connectors (GAC's), has been linked to fires caused from direct and indirect / close proximity lightning strikes. The lightning strikes have been linked to punctures / holes in the thin stainless steel tubing and igniting fires. CSST is now required to be properly bonded in an attempt to make it a safer product.",
+            "page_numbers": [
+              32
+            ],
+            "estimated_cost": null,
+            "severity": "unknown",
+            "suggested_action": "",
+            "standard_category": "Electrical",
+            "standard_severity": "high",
+            "standard_action": "unknown",
+            "extracted_attributes": {
+              "locations": [
+                "kitchen",
+                "gate"
+              ],
+              "materials": [
+                "metal",
+                "carpet"
+              ]
+            },
+            "enrichment_metadata": {
+              "component_taxonomy": {
+                "category": "Grounds",
+                "subcategory": null,
+                "confidence": 0.65,
+                "original_item": "Comments:"
+              },
+              "attributes": {
+                "locations": [
+                  "yard",
+                  "fence",
+                  "gate"
+                ],
+                "damage_types": [
+                  "damaged"
+                ]
+              },
+              "property": {
+                "address": "1\n 18559 Denise Dale Ln, Houston, TX 77084",
+                "total_pages": 35,
+                "inspection_date": "Saturday, August 16, 2025"
+              },
+              "urgency_score": 7.0,
+              "complexity_factor": 6.0,
+              "specialized_labor": true,
+              "classification": {
+                "trade": "plumbing",
+                "trade_confidence": 0.6,
+                "work_type": "inspection",
+                "work_type_confidence": 0.9,
+                "complexity": "moderate",
+                "complexity_confidence": 0.75
+              },
+              "cost_strategy": {
+                "strategy": "llm_reasoning",
+                "confidence": 0.8,
+                "reasoning": {
+                  "reason": "Long description requires detailed analysis"
+                }
+              }
+            },
+            "classification": {
+              "trade": "electrical",
+              "trade_confidence": 0.95,
+              "work_type": "repair",
+              "work_type_confidence": 0.5,
+              "complexity": "complex",
+              "complexity_confidence": 0.8
+            },
+            "cost_strategy": "llm_reasoning",
+            "grouped_with": [
+              "group_33",
+              "group_25",
+              "group_24",
+              "group_26"
+            ],
+            "validation_status": "pending",
+            "severity_confidence": 0.7999999999999999,
+            "action_confidence": 0.0,
+            "action_priority": 0,
+            "standard_subcategory": null,
+            "category_confidence": 0.75,
+            "urgency_score": 8.0,
+            "complexity_factor": 7.5,
+            "requires_specialized_labor": true,
+            "is_grouped": true,
+            "strategy_confidence": 0.85,
+            "strategy_reasoning": {
+              "reason": "High complexity requires contextual reasoning"
+            },
+            "data_quality_score": 0.9199999999999999,
+            "data_quality_issues": []
+          }
+        ],
+        "savings_pct": 0.2,
+        "reason": "All general_contractor work can be scheduled together"
+      }
+    ],
+    "isolated_issues": [],
+    "statistics": {
+      "total_issues": 3,
+      "issues_in_chains": 3,
+      "isolated_issues": 0,
+      "potential_bundles": 1,
+      "estimated_savings": {
+        "total_bundles": 1,
+        "average_savings_pct": 0.2,
+        "max_savings_pct": 0.2
+      }
+    }
+  },
+  "cost_estimates": [
+    {
+      "item": "Roof Covering (Composition Shingles)",
+      "issue_description": "Vague description, only states roof type and viewing location. No specific issue identified, but property age (2000) suggests the roof is at or past its typical Houston lifespan.",
+      "severity": "High",
+      "suggested_action": "Professional Roof Inspection and Evaluation",
+      "estimated_low": 250,
+      "estimated_high": 15300,
+      "confidence_score": 40,
+      "reasoning": "The issue description is extremely vague, providing no specific problem with the roof. Therefore, the estimate covers a wide range from a professional inspection to a full roof replacement, which is highly probable given the property's age (2000, making the roof 25 years old in 2025). \n\nLow estimate ($250): Assumes a professional, detailed roof inspection (2-3 hours @ $70-120/hr for a roofer, totaling $140-360) to identify any issues, potentially including minor sealing or patching of a small, easily accessible defect (materials $50-100). This is for initial assessment and minor, immediate intervention if a small issue is found.\n\nHigh estimate ($15,300): Assumes the inspection reveals the roof is at end-of-life or has significant damage requiring full replacement. This includes a typical 2,000 sq ft composition shingle roof replacement in Houston ($8,000-15,000 for materials and labor) plus a permit ($150-300). Labor for replacement involves a crew for 2-5 days. Given the age, a full replacement is a strong possibility.",
+      "contractor_type": "Licensed Roofing Contractor",
+      "timeline_days": 7,
+      "houston_notes": "Houston's intense UV exposure, high heat, and humidity significantly reduce the lifespan of composition shingles (typically 15-20 years here, compared to 20+ in cooler climates). The property's age (2000) means the roof is likely overdue for replacement. Hurricane season (June-November) can cause delays and price spikes. A permit ($150-300) is required for full roof replacement in Houston.",
+      "assumptions": [
+        "No specific damage was noted in the inspection report provided.",
+        "The roof is original to the 2000 build year.",
+        "The property is a typical residential size (e.g., 2,000 sq ft roof area).",
+        "Standard access to the roof (no unusual height or obstructions).",
+        "The estimate covers initial inspection and potential full replacement based on age."
+      ],
+      "risk_factors": [
+        "Discovery of active leaks, water damage, or mold in the attic/sheathing (adds $500-5,000+).",
+        "Underlying decking damage (plywood replacement adds $5-10 per sq ft).",
+        "Storm damage (hail, wind) may require insurance claim, affecting timeline and scope.",
+        "Complex roofline or steep pitch could increase labor costs for replacement.",
+        "Higher-than-expected replacement costs if premium materials or extensive flashing work is needed."
+      ],
+      "original_issue": {
+        "id": "I. STRUCTURAL SYSTEMS_9",
+        "section": "I. STRUCTURAL SYSTEMS",
+        "subsection": "C. Roof Covering Materials",
+        "status": "I",
+        "priority": "high",
+        "title": "Types of Roof Covering: Composition",
+        "description": "Types of Roof Covering: Composition Viewed From: Roof Level.",
+        "page_numbers": [
+          11
+        ],
+        "estimated_cost": null,
+        "severity": "unknown",
+        "suggested_action": "",
+        "standard_category": "Roofing",
+        "standard_severity": "medium",
+        "standard_action": "unknown",
+        "extracted_attributes": {
+          "locations": [
+            "roof"
+          ]
+        },
+        "enrichment_metadata": {
+          "component_taxonomy": {
+            "category": "Grounds",
+            "subcategory": null,
+            "confidence": 0.65,
+            "original_item": "Comments:"
+          },
+          "attributes": {
+            "locations": [
+              "yard",
+              "fence",
+              "gate"
+            ],
+            "damage_types": [
+              "damaged"
+            ]
+          },
+          "property": {
+            "address": "1\n 18559 Denise Dale Ln, Houston, TX 77084",
+            "total_pages": 35,
+            "inspection_date": "Saturday, August 16, 2025"
+          },
+          "urgency_score": 7.0,
+          "complexity_factor": 6.0,
+          "specialized_labor": true,
+          "classification": {
+            "trade": "plumbing",
+            "trade_confidence": 0.6,
+            "work_type": "inspection",
+            "work_type_confidence": 0.9,
+            "complexity": "moderate",
+            "complexity_confidence": 0.75
+          },
+          "cost_strategy": {
+            "strategy": "llm_reasoning",
+            "confidence": 0.8,
+            "reasoning": {
+              "reason": "Long description requires detailed analysis"
+            }
+          }
+        },
+        "classification": {
+          "trade": "roofing",
+          "trade_confidence": 0.95,
+          "work_type": "repair",
+          "work_type_confidence": 0.5,
+          "complexity": "complex",
+          "complexity_confidence": 0.8
+        },
+        "cost_strategy": "llm_reasoning",
+        "grouped_with": [],
+        "validation_status": "pending",
+        "severity_confidence": 0.7999999999999999,
+        "action_confidence": 0.0,
+        "action_priority": 0,
+        "standard_subcategory": null,
+        "category_confidence": 0.675,
+        "urgency_score": 7.0,
+        "complexity_factor": 7.0,
+        "requires_specialized_labor": true,
+        "is_grouped": false,
+        "strategy_confidence": 0.85,
+        "strategy_reasoning": {
+          "reason": "High complexity requires contextual reasoning"
+        },
+        "data_quality_score": 0.94,
+        "data_quality_issues": []
+      },
+      "estimation_method": "ai",
+      "confidence": {
+        "overall": 62.5,
+        "breakdown": {
+          "description_completeness": 70.0,
+          "has_measurements": 50.0,
+          "has_photos": 60.0,
+          "has_location": 30.0,
+          "database_match": 50.0,
+          "market_data_availability": 75.0,
+          "estimate_range_quality": 50.0,
+          "reasoning_quality": 100.0,
+          "age_uncertainty": 60.0,
+          "access_difficulty": 75.0,
+          "hidden_damage_risk": 85.0
+        },
+        "recommendation": "Fair - Estimate has moderate uncertainties; consider professional inspection",
+        "weak_dimensions": [
+          {
+            "dimension": "has_location",
+            "score": 30.0,
+            "improvement_tip": "Specify exact location (e.g., 'southeast corner of bedroom 2')"
+          },
+          {
+            "dimension": "has_measurements",
+            "score": 50.0,
+            "improvement_tip": "Include measurements (length, width, area affected)"
+          },
+          {
+            "dimension": "database_match",
+            "score": 50.0,
+            "improvement_tip": "Need more specific component identification"
+          },
+          {
+            "dimension": "estimate_range_quality",
+            "score": 50.0,
+            "improvement_tip": "Cost range may be too wide or too narrow"
+          }
+        ],
+        "inspection_needed": false,
+        "manual_review_needed": true
+      },
+      "validation": {
+        "valid": false,
+        "needs_review": true,
+        "quality_score": 95,
+        "errors": [
+          "No cost information provided"
+        ],
+        "warnings": [
+          "Cost range very wide (ratio 61.2:1). Indicates high uncertainty or insufficient information.",
+          "Very detailed reasoning despite low confidence"
+        ],
+        "enhanced_validation": {
+          "passed": false,
+          "action": "regenerate_estimate",
+          "reason": "Missing cost data"
+        }
+      },
+      "bundling": {
+        "related_issues": [
+          "Unknown",
+          "Unknown"
+        ],
+        "savings_pct": 0.15,
+        "recommendation": "Bundle with 2 related issue(s) at same location. Estimated 15% savings on combined labor."
+      }
+    },
+    {
+      "item": "Interior Surfaces / Hidden Conditions",
+      "issue_description": "Fresh paint and plug-in fragrance devices observed, potentially masking underlying distress indicators (e.g., water damage, mold, structural issues) or foul odors (e.g., pests, plumbing issues).",
+      "severity": "High",
+      "suggested_action": "Immediate professional inspection and evaluation",
+      "estimated_low": 250,
+      "estimated_high": 7500,
+      "confidence_score": 35,
+      "reasoning": "This is an investigative estimate due to the vague nature of the 'distress indicators' and 'foul odors' potentially masked by fresh paint and fragrance devices. The low estimate ($250) covers an initial, thorough assessment by a qualified General Contractor (2-3 hours @ $75-125/hr) to identify potential areas of concern and recommend specialist inspections. The high estimate ($7,500) reflects a reasonable worst-case scenario for a *single* significant hidden issue discovered, such as moderate mold remediation ($1,500-3,000), a hidden plumbing leak requiring detection and repair ($1,000-2,500), or significant pest infestation treatment ($800-2,500), plus associated drywall repair and repainting ($800-1,500). This estimate does not include major structural or foundation repairs, which could significantly increase costs. The wide range is due to the complete lack of specific identified issues, making the scope highly unpredictable.",
+      "contractor_type": "General Contractor (for initial assessment) + Specialized Inspectors (e.g., Mold Remediation Specialist, Licensed Plumber, Pest Control Specialist) as needed.",
+      "timeline_days": 20,
+      "houston_notes": "Houston's high humidity significantly increases the risk of mold growth if water intrusion is present, often developing within 24-48 hours. Year-round pest activity also makes hidden infestations common. Expansive clay soils can cause structural movement, which might be masked by fresh paint. Permits are not required for initial inspections but would be for significant repairs (e.g., extensive plumbing, structural work, major electrical). Due to high demand, scheduling an initial assessment can take 1-2 weeks, and subsequent specialized work could add another 2-4 weeks.",
+      "assumptions": [
+        "No visible signs of damage or odor were present at the time of the inspection, only the observation of masking attempts.",
+        "The fresh paint and fragrance devices are indeed attempts to conceal underlying issues.",
+        "The underlying issues are not immediately catastrophic (e.g., major foundation failure, active fire hazard).",
+        "Initial assessment will clearly identify the nature and extent of any hidden issues.",
+        "The property is of standard construction for its age (2000)."
+      ],
+      "risk_factors": [
+        "Discovery of extensive mold growth requiring costly remediation ($3,000-$10,000+).",
+        "Discovery of active or long-standing plumbing leaks causing significant water damage and potential structural rot ($2,000-$8,000+).",
+        "Discovery of severe pest infestation (e.g., termites, rodents) requiring extensive treatment and repair of damaged materials ($1,500-$5,000+).",
+        "Underlying structural issues (e.g., settling cracks, framing damage) hidden by paint, requiring more complex repairs ($1,000-$5,000+).",
+        "Multiple hidden issues may be present, compounding costs.",
+        "Access difficulty to hidden areas (e.g., behind walls, under floors) could increase labor costs for investigation and repair.",
+        "Insurance may not cover damage from gradual leaks or pre-existing conditions."
+      ],
+      "original_issue": {
+        "id": "I. STRUCTURAL SYSTEMS_15",
+        "section": "I. STRUCTURAL SYSTEMS",
+        "subsection": "E. Walls (Interior and Exterior)",
+        "status": "I",
+        "priority": "info",
+        "title": "Buyer's note: Fresh paint observed on interior surfaces can mask distress indicators",
+        "description": "Buyer's note: Fresh paint observed on interior surfaces can mask distress indicators. Page 14 of 34 REI 7-6 (8/9/21) Promulgated by the Texas Real Estate Commission 1 (512) 936-3000 1 www. Trec. Texas. Gov Report Identification: 081625AD1, 18559 Denise Dale Ln, Houston, TX I=Inspected NI=Not Inspected NP=Not Present D=Deficient I NI NP D Observed multiple plug-in fragrance devices, could potentially be used to cover up foul odors. F.",
+        "page_numbers": [
+          15,
+          16
+        ],
+        "estimated_cost": null,
+        "severity": "unknown",
+        "suggested_action": "",
+        "standard_category": "Interior",
+        "standard_severity": "low",
+        "standard_action": "monitoring",
+        "extracted_attributes": {
+          "locations": [
+            "den",
+            "interior",
+            "gate"
+          ],
+          "materials": [
+            "paint"
+          ],
+          "damage_types": [
+            "missing"
+          ]
+        },
+        "enrichment_metadata": {
+          "component_taxonomy": {
+            "category": "Grounds",
+            "subcategory": null,
+            "confidence": 0.65,
+            "original_item": "Comments:"
+          },
+          "attributes": {
+            "locations": [
+              "yard",
+              "fence",
+              "gate"
+            ],
+            "damage_types": [
+              "damaged"
+            ]
+          },
+          "property": {
+            "address": "1\n 18559 Denise Dale Ln, Houston, TX 77084",
+            "total_pages": 35,
+            "inspection_date": "Saturday, August 16, 2025"
+          },
+          "urgency_score": 7.0,
+          "complexity_factor": 6.0,
+          "specialized_labor": true,
+          "classification": {
+            "trade": "plumbing",
+            "trade_confidence": 0.6,
+            "work_type": "inspection",
+            "work_type_confidence": 0.9,
+            "complexity": "moderate",
+            "complexity_confidence": 0.75
+          },
+          "cost_strategy": {
+            "strategy": "llm_reasoning",
+            "confidence": 0.8,
+            "reasoning": {
+              "reason": "Long description requires detailed analysis"
+            }
+          }
+        },
+        "classification": {
+          "trade": "painting",
+          "trade_confidence": 0.95,
+          "work_type": "monitoring",
+          "work_type_confidence": 0.9,
+          "complexity": "moderate",
+          "complexity_confidence": 0.75
+        },
+        "cost_strategy": "llm_reasoning",
+        "grouped_with": [],
+        "validation_status": "pending",
+        "severity_confidence": 0.7,
+        "action_confidence": 0.7,
+        "action_priority": 1,
+        "standard_subcategory": null,
+        "category_confidence": 0.75,
+        "urgency_score": 6.5,
+        "complexity_factor": 6.0,
+        "requires_specialized_labor": false,
+        "is_grouped": false,
+        "strategy_confidence": 0.8,
+        "strategy_reasoning": {
+          "reason": "Long description requires detailed analysis"
+        },
+        "data_quality_score": 0.96,
+        "data_quality_issues": []
+      },
+      "estimation_method": "ai",
+      "confidence": {
+        "overall": 66.0,
+        "breakdown": {
+          "description_completeness": 95.0,
+          "has_measurements": 50.0,
+          "has_photos": 60.0,
+          "has_location": 30.0,
+          "database_match": 50.0,
+          "market_data_availability": 75.0,
+          "estimate_range_quality": 50.0,
+          "reasoning_quality": 95.0,
+          "age_uncertainty": 60.0,
+          "access_difficulty": 75.0,
+          "hidden_damage_risk": 85.0
+        },
+        "recommendation": "Fair - Estimate has moderate uncertainties; consider professional inspection",
+        "weak_dimensions": [
+          {
+            "dimension": "has_location",
+            "score": 30.0,
+            "improvement_tip": "Specify exact location (e.g., 'southeast corner of bedroom 2')"
+          },
+          {
+            "dimension": "has_measurements",
+            "score": 50.0,
+            "improvement_tip": "Include measurements (length, width, area affected)"
+          },
+          {
+            "dimension": "database_match",
+            "score": 50.0,
+            "improvement_tip": "Need more specific component identification"
+          },
+          {
+            "dimension": "estimate_range_quality",
+            "score": 50.0,
+            "improvement_tip": "Cost range may be too wide or too narrow"
+          }
+        ],
+        "inspection_needed": false,
+        "manual_review_needed": true
+      },
+      "validation": {
+        "valid": false,
+        "needs_review": true,
+        "quality_score": 95,
+        "errors": [
+          "No cost information provided"
+        ],
+        "warnings": [
+          "Cost range very wide (ratio 30.0:1). Indicates high uncertainty or insufficient information.",
+          "Very detailed reasoning despite low confidence"
+        ],
+        "enhanced_validation": {
+          "passed": false,
+          "action": "regenerate_estimate",
+          "reason": "Missing cost data"
+        }
+      },
+      "bundling": {
+        "related_issues": [
+          "Unknown",
+          "Unknown"
+        ],
+        "savings_pct": 0.15,
+        "recommendation": "Bundle with 2 related issue(s) at same location. Estimated 15% savings on combined labor."
+      }
+    },
+    {
+      "item": "Gas Appliance Connectors (GACs)",
+      "issue_description": "Gas Appliance Connectors (GACs) are not electrically bonded, posing a lightning strike fire risk similar to CSST.",
+      "severity": "High",
+      "suggested_action": "Repair (Electrical Bonding)",
+      "estimated_low": 250,
+      "estimated_high": 750,
+      "confidence_score": 70,
+      "reasoning": "This is a critical safety issue requiring immediate attention. The estimate range reflects the variability in the number of gas appliances requiring bonding and the complexity of running the bonding wire to the main electrical service panel's grounding system. \n\nLow estimate ($250): Assumes bonding for 1-2 easily accessible gas appliances. This includes 1.5-2 hours of a Licensed Plumber or Electrician's labor ($80-100/hr) and $50-70 in materials (copper wire, clamps, connectors). This often falls within a standard service call minimum.\n\nHigh estimate ($750): Assumes bonding for 4-6 gas appliances (e.g., water heater, furnace, range, dryer) with potentially longer wire runs or slightly more complex access. This includes 4-5 hours of a Licensed Plumber or Electrician's labor ($100-125/hr), $100-150 in materials, and a potential minor permit or inspection fee ($25-50) for peace of mind or if multiple connections warrant it. The confidence score is 70 due to the unknown number of GACs and the existing grounding system's accessibility.",
+      "contractor_type": "Licensed Plumber or Licensed Electrician",
+      "timeline_days": 2,
+      "houston_notes": "Houston experiences frequent thunderstorms and lightning, making proper electrical bonding of gas lines crucial for safety. While a specific permit for bonding GACs might not always be required for minor work, it's advisable to ensure the work is done by a licensed professional to meet local codes. Contractor availability for smaller jobs is typically 1-3 days for scheduling, with the work itself taking less than a full day.",
+      "assumptions": [
+        "Standard residential gas piping system and appliances.",
+        "The main electrical service panel's grounding electrode system is accessible and adequate.",
+        "No existing damage to gas lines or electrical systems from previous lightning strikes.",
+        "A typical number of gas appliances (3-5) requiring bonding.",
+        "Access to gas lines and the electrical panel is not unusually difficult."
+      ],
+      "risk_factors": [
+        "More gas appliances than anticipated may require bonding, increasing labor and material costs.",
+        "Difficult access to gas lines or the main electrical panel could extend labor time.",
+        "The existing electrical grounding system may be inadequate and require upgrades, significantly increasing costs (e.g., new grounding rods, additional wiring, $300-800).",
+        "Discovery of other gas line issues (e.g., leaks, corrosion) during inspection could add to the repair scope and cost.",
+        "While unlikely, actual lightning damage could be present, requiring more extensive and costly repairs."
+      ],
+      "original_issue": {
+        "id": "IV. PLUMBING SYSTEMS_41",
+        "section": "IV. PLUMBING SYSTEMS",
+        "subsection": "E. Gas Distribution Systems and Gas Appliances",
+        "status": "I",
+        "priority": "high",
+        "title": "Buyers note: Gas Appliance Connectors (GAC's) are not electrically bonded",
+        "description": "Buyers note: Gas Appliance Connectors (GAC's) are not electrically bonded. Gas Appliance Connectors (GAC's) are the short run of yellow corrugated gas line similar in composition to Corrugated Stainless Steel Tubing (CSST) that connects gas appliances such as kitchen appliances, clothes dryers, water heaters, and house heaters to the natural gas piping in the home. Corrugated Stainless Steel Tubing(CSST) which is a similar material as Gas Appliance Connectors (GAC's), has been linked to fires caused from direct and indirect / close proximity lightning strikes. The lightning strikes have been linked to punctures / holes in the thin stainless steel tubing and igniting fires. CSST is now required to be properly bonded in an attempt to make it a safer product.",
+        "page_numbers": [
+          32
+        ],
+        "estimated_cost": null,
+        "severity": "unknown",
+        "suggested_action": "",
+        "standard_category": "Electrical",
+        "standard_severity": "high",
+        "standard_action": "unknown",
+        "extracted_attributes": {
+          "locations": [
+            "kitchen",
+            "gate"
+          ],
+          "materials": [
+            "metal",
+            "carpet"
+          ]
+        },
+        "enrichment_metadata": {
+          "component_taxonomy": {
+            "category": "Grounds",
+            "subcategory": null,
+            "confidence": 0.65,
+            "original_item": "Comments:"
+          },
+          "attributes": {
+            "locations": [
+              "yard",
+              "fence",
+              "gate"
+            ],
+            "damage_types": [
+              "damaged"
+            ]
+          },
+          "property": {
+            "address": "1\n 18559 Denise Dale Ln, Houston, TX 77084",
+            "total_pages": 35,
+            "inspection_date": "Saturday, August 16, 2025"
+          },
+          "urgency_score": 7.0,
+          "complexity_factor": 6.0,
+          "specialized_labor": true,
+          "classification": {
+            "trade": "plumbing",
+            "trade_confidence": 0.6,
+            "work_type": "inspection",
+            "work_type_confidence": 0.9,
+            "complexity": "moderate",
+            "complexity_confidence": 0.75
+          },
+          "cost_strategy": {
+            "strategy": "llm_reasoning",
+            "confidence": 0.8,
+            "reasoning": {
+              "reason": "Long description requires detailed analysis"
+            }
+          }
+        },
+        "classification": {
+          "trade": "electrical",
+          "trade_confidence": 0.95,
+          "work_type": "repair",
+          "work_type_confidence": 0.5,
+          "complexity": "complex",
+          "complexity_confidence": 0.8
+        },
+        "cost_strategy": "llm_reasoning",
+        "grouped_with": [
+          "group_33",
+          "group_25",
+          "group_24",
+          "group_26"
+        ],
+        "validation_status": "pending",
+        "severity_confidence": 0.7999999999999999,
+        "action_confidence": 0.0,
+        "action_priority": 0,
+        "standard_subcategory": null,
+        "category_confidence": 0.75,
+        "urgency_score": 8.0,
+        "complexity_factor": 7.5,
+        "requires_specialized_labor": true,
+        "is_grouped": true,
+        "strategy_confidence": 0.85,
+        "strategy_reasoning": {
+          "reason": "High complexity requires contextual reasoning"
+        },
+        "data_quality_score": 0.9199999999999999,
+        "data_quality_issues": []
+      },
+      "estimation_method": "ai",
+      "confidence": {
+        "overall": 70.0,
+        "breakdown": {
+          "description_completeness": 98.0,
+          "has_measurements": 50.0,
+          "has_photos": 60.0,
+          "has_location": 30.0,
+          "database_match": 50.0,
+          "market_data_availability": 75.0,
+          "estimate_range_quality": 85.0,
+          "reasoning_quality": 95.0,
+          "age_uncertainty": 60.0,
+          "access_difficulty": 75.0,
+          "hidden_damage_risk": 85.0
+        },
+        "recommendation": "Good - Estimate is reliable with minor uncertainties",
+        "weak_dimensions": [
+          {
+            "dimension": "has_location",
+            "score": 30.0,
+            "improvement_tip": "Specify exact location (e.g., 'southeast corner of bedroom 2')"
+          },
+          {
+            "dimension": "has_measurements",
+            "score": 50.0,
+            "improvement_tip": "Include measurements (length, width, area affected)"
+          },
+          {
+            "dimension": "database_match",
+            "score": 50.0,
+            "improvement_tip": "Need more specific component identification"
+          }
+        ],
+        "inspection_needed": false,
+        "manual_review_needed": false
+      },
+      "validation": {
+        "valid": false,
+        "needs_review": true,
+        "quality_score": 100,
+        "errors": [
+          "No cost information provided"
+        ],
+        "warnings": [],
+        "enhanced_validation": {
+          "passed": false,
+          "action": "regenerate_estimate",
+          "reason": "Missing cost data"
+        }
+      },
+      "bundling": {
+        "related_issues": [
+          "Unknown",
+          "Unknown"
+        ],
+        "savings_pct": 0.15,
+        "recommendation": "Bundle with 2 related issue(s) at same location. Estimated 15% savings on combined labor."
+      }
+    }
+  ]
+}

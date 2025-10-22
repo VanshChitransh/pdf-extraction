@@ -1,0 +1,569 @@
+{
+  "test_metadata": {
+    "issues_tested": 3,
+    "estimates_generated": 3,
+    "stats": {
+      "total_issues": 0,
+      "database_matches": 0,
+      "ai_estimates": 0,
+      "hybrid_estimates": 0,
+      "high_confidence": 0,
+      "needs_review": 0,
+      "bundles_identified": 0,
+      "data_quality_excluded": 0,
+      "data_quality_flagged": 0,
+      "estimation_auto_corrected": 0,
+      "estimation_validation_failed": 0
+    }
+  },
+  "estimates": [
+    {
+      "item": "Roof Covering (Composition Shingles)",
+      "issue_description": "Potential structural issue with composition roof covering, requiring further evaluation due to vague inspection notes under 'Structural Systems' category.",
+      "severity": "High",
+      "suggested_action": "Immediate inspection by Structural Engineer and Roofer",
+      "estimated_low": 1150,
+      "estimated_high": 9800,
+      "confidence_score": 45,
+      "reasoning": "The input description 'Types of Roof Covering: Composition Viewed From: Roof Level.' is extremely vague and does not specify an actual issue. However, its categorization under 'I. STRUCTURAL SYSTEMS' mandates the assumption of a potential structural concern. Therefore, a licensed structural engineer evaluation is the critical first step. The low estimate ($1,150) includes a structural engineer evaluation ($800-1,500, using $800 for low end) and a roofer's assessment with minor spot repair (e.g., re-securing loose shingles, minor flashing repair: $300-500 for 2-3 hours labor @ $70-120/hr + materials). The high estimate ($9,800) includes a structural engineer evaluation ($1,500 for high end), a significant roof repair or partial replacement (e.g., 500-1000 sq ft section including decking and underlayment: $4,000-8,000 for materials and 3-5 days labor @ $70-120/hr), and potential minor structural reinforcement identified by the engineer ($1,000-3,000 for sistering rafters or minor truss repair), plus a permit ($300). This wide range reflects the high uncertainty due to the lack of specific issue details. The 'Structural Systems' category implies potential underlying issues like sagging trusses or compromised decking, which must be ruled out.",
+      "assumptions": [
+        "The 'Structural Systems' category implies a potential underlying structural issue, necessitating a structural engineer's evaluation.",
+        "The roof covering is composition shingles, as stated.",
+        "The issue is not a full roof replacement *yet*, but could escalate based on the engineer's findings.",
+        "No active leaks or significant water intrusion are present at the time of this initial assessment (which would add mold/water damage costs).",
+        "The property is a typical residential home with standard roof pitch."
+      ],
+      "risk_factors": [
+        "Hidden structural damage (e.g., compromised trusses, sagging rafters, rotted decking) may be more extensive than anticipated, significantly increasing costs.",
+        "Active water leaks could be present but undetected, leading to mold growth and interior damage, requiring additional remediation ($500-6,000).",
+        "More extensive roof replacement may be needed than initially estimated, potentially a full replacement ($8,000-15,000).",
+        "Weather delays (heavy rain, high winds) during repair can extend the timeline and increase costs.",
+        "Insurance complexities if storm damage is suspected, requiring specific documentation and potentially delaying repairs."
+      ],
+      "original_issue": {
+        "id": "I. STRUCTURAL SYSTEMS_9",
+        "section": "I. STRUCTURAL SYSTEMS",
+        "subsection": "C. Roof Covering Materials",
+        "status": "I",
+        "priority": "high",
+        "title": "Types of Roof Covering: Composition",
+        "description": "Types of Roof Covering: Composition Viewed From: Roof Level.",
+        "page_numbers": [
+          11
+        ],
+        "estimated_cost": null,
+        "severity": "unknown",
+        "suggested_action": "",
+        "standard_category": "Roofing",
+        "standard_severity": "medium",
+        "standard_action": "unknown",
+        "extracted_attributes": {
+          "locations": [
+            "roof"
+          ]
+        },
+        "enrichment_metadata": {
+          "component_taxonomy": {
+            "category": "Unknown",
+            "subcategory": null,
+            "confidence": 0.0,
+            "original_item": "Page 33 of 34"
+          },
+          "attributes": {
+            "locations": [
+              "den",
+              "gate"
+            ],
+            "damage_types": [
+              "missing"
+            ]
+          },
+          "property": {
+            "address": "1\n 18559 Denise Dale Ln, Houston, TX 77084",
+            "total_pages": 35,
+            "inspection_date": "Saturday, August 16, 2025"
+          },
+          "urgency_score": 6.0,
+          "complexity_factor": 5.0,
+          "specialized_labor": false,
+          "classification": {
+            "trade": "general",
+            "trade_confidence": 0.95,
+            "work_type": "inspection",
+            "work_type_confidence": 0.8,
+            "complexity": "moderate",
+            "complexity_confidence": 0.75
+          },
+          "cost_strategy": {
+            "strategy": "llm_reasoning",
+            "confidence": 0.8,
+            "reasoning": {
+              "reason": "Long description requires detailed analysis"
+            }
+          }
+        },
+        "classification": {
+          "trade": "roofing",
+          "trade_confidence": 0.95,
+          "work_type": "repair",
+          "work_type_confidence": 0.5,
+          "complexity": "complex",
+          "complexity_confidence": 0.8
+        },
+        "cost_strategy": "llm_reasoning",
+        "grouped_with": [],
+        "validation_status": "pending",
+        "data_quality_score": 0.94,
+        "data_quality_issues": [],
+        "severity_confidence": 0.7999999999999999,
+        "action_confidence": 0.0,
+        "action_priority": 0,
+        "standard_subcategory": null,
+        "category_confidence": 0.675,
+        "urgency_score": 7.0,
+        "complexity_factor": 7.0,
+        "requires_specialized_labor": true,
+        "is_grouped": false,
+        "strategy_confidence": 0.85,
+        "strategy_reasoning": {
+          "reason": "High complexity requires contextual reasoning"
+        }
+      },
+      "estimation_method": "ai",
+      "confidence": {
+        "overall": 62.3,
+        "breakdown": {
+          "description_completeness": 70.0,
+          "has_measurements": 50.0,
+          "has_photos": 60.0,
+          "has_location": 30.0,
+          "database_match": 50.0,
+          "market_data_availability": 75.0,
+          "estimate_range_quality": 50.0,
+          "reasoning_quality": 95.0,
+          "age_uncertainty": 60.0,
+          "access_difficulty": 75.0,
+          "hidden_damage_risk": 85.0
+        },
+        "recommendation": "Fair - Estimate has moderate uncertainties; consider professional inspection",
+        "weak_dimensions": [
+          {
+            "dimension": "has_location",
+            "score": 30.0,
+            "improvement_tip": "Specify exact location (e.g., 'southeast corner of bedroom 2')"
+          },
+          {
+            "dimension": "has_measurements",
+            "score": 50.0,
+            "improvement_tip": "Include measurements (length, width, area affected)"
+          },
+          {
+            "dimension": "database_match",
+            "score": 50.0,
+            "improvement_tip": "Need more specific component identification"
+          },
+          {
+            "dimension": "estimate_range_quality",
+            "score": 50.0,
+            "improvement_tip": "Cost range may be too wide or too narrow"
+          }
+        ],
+        "inspection_needed": false,
+        "manual_review_needed": true
+      },
+      "validation": {
+        "valid": false,
+        "needs_review": true,
+        "quality_score": 95,
+        "errors": [
+          "Total: Range ratio 8.52x exceeds Phase 1 limit of 3.0x ($1150-$9800). Reduce range or lower confidence score.",
+          "Confidence score 45 out of valid range [0, 1]"
+        ],
+        "warnings": [
+          "Cost range very wide (ratio 8.5:1). Indicates high uncertainty or insufficient information.",
+          "Very detailed reasoning despite low confidence",
+          "Auto-corrected inverted min/max ranges",
+          "Auto-corrected component sum",
+          "Materials cost is only 0.0% of total - verify if reasonable",
+          "High confidence (>0.9) without detailed reasoning - verify accuracy",
+          "No timeline information provided",
+          "Missing field: cost",
+          "Missing field: urgency"
+        ],
+        "enhanced_validation": {
+          "passed": false,
+          "action": "flag_for_review",
+          "reason": "Total: Range ratio 8.52x exceeds Phase 1 limit of 3.0x ($1150-$9800). Reduce range or lower confidence score."
+        }
+      }
+    },
+    {
+      "item": "Potential Structural/Environmental Issues",
+      "issue_description": "Fresh paint observed masking potential distress indicators; multiple plug-in fragrance devices suggest possible foul odors.",
+      "severity": "High",
+      "suggested_action": "Immediate comprehensive inspection and evaluation",
+      "estimated_low": 1100,
+      "estimated_high": 5500,
+      "confidence_score": 30,
+      "reasoning": "This issue description indicates potential hidden problems, making an accurate estimate impossible without professional evaluations. The low estimate ($1,100) covers the mandatory initial steps: a licensed structural engineer evaluation ($800-1,500, typically a flat fee for a 2-4 hour assessment) and a certified mold/environmental inspection ($300-600). The high estimate ($21,500) includes these evaluations ($1,500 + $600) plus a significant potential repair scenario: foundation repair (e.g., 8 piers @ $1,500/pier = $12,000), drainage improvements ($2,500), moderate mold remediation ($3,000), and cosmetic drywall/paint repairs ($1,500) after opening walls, plus permits ($200). This wide range reflects the high uncertainty of the underlying issue. Labor for repairs would vary significantly based on scope, but foundation specialists typically charge $90-140/hr, mold remediation specialists $70-120/hr, and general contractors $50-100/hr. Timeline for evaluations is 1-2 weeks to schedule, 1-2 days for inspection. Repairs could take weeks to months.",
+      "assumptions": [
+        "The fresh paint is intentionally masking underlying distress indicators (e.g., cracks, water stains).",
+        "The plug-in fragrance devices are deliberately covering up foul odors from mold, water damage, or pests.",
+        "The property is built on typical Houston clay soil, making foundation issues a common concern.",
+        "No immediate visible structural collapse, but potential for significant hidden damage.",
+        "The property has not undergone recent major renovations that would explain fresh paint."
+      ],
+      "risk_factors": [
+        "Underlying issues could be severe, such as major foundation failure, extensive water damage, or widespread mold growth, leading to significantly higher costs.",
+        "Opening walls for investigation could reveal more extensive damage than anticipated, escalating repair scope and cost.",
+        "Health risks associated with mold exposure, especially if the issue has been long-standing.",
+        "Difficulty in obtaining insurance coverage or selling the property if significant undisclosed issues are found.",
+        "Potential for structural compromise if foundation issues are severe and unaddressed."
+      ],
+      "original_issue": {
+        "id": "I. STRUCTURAL SYSTEMS_15",
+        "section": "I. STRUCTURAL SYSTEMS",
+        "subsection": "E. Walls (Interior and Exterior)",
+        "status": "I",
+        "priority": "info",
+        "title": "Buyer's note: Fresh paint observed on interior surfaces can mask distress indicators",
+        "description": "Buyer's note: Fresh paint observed on interior surfaces can mask distress indicators. Page 14 of 34 REI 7-6 (8/9/21) Promulgated by the Texas Real Estate Commission 1 (512) 936-3000 1 www. Trec. Texas. Gov Report Identification: 081625AD1, 18559 Denise Dale Ln, Houston, TX I=Inspected NI=Not Inspected NP=Not Present D=Deficient I NI NP D Observed multiple plug-in fragrance devices, could potentially be used to cover up foul odors. F.",
+        "page_numbers": [
+          15,
+          16
+        ],
+        "estimated_cost": null,
+        "severity": "unknown",
+        "suggested_action": "",
+        "standard_category": "Interior",
+        "standard_severity": "low",
+        "standard_action": "monitoring",
+        "extracted_attributes": {
+          "locations": [
+            "den",
+            "interior",
+            "gate"
+          ],
+          "materials": [
+            "paint"
+          ],
+          "damage_types": [
+            "missing"
+          ]
+        },
+        "enrichment_metadata": {
+          "component_taxonomy": {
+            "category": "Unknown",
+            "subcategory": null,
+            "confidence": 0.0,
+            "original_item": "Page 33 of 34"
+          },
+          "attributes": {
+            "locations": [
+              "den",
+              "gate"
+            ],
+            "damage_types": [
+              "missing"
+            ]
+          },
+          "property": {
+            "address": "1\n 18559 Denise Dale Ln, Houston, TX 77084",
+            "total_pages": 35,
+            "inspection_date": "Saturday, August 16, 2025"
+          },
+          "urgency_score": 6.0,
+          "complexity_factor": 5.0,
+          "specialized_labor": false,
+          "classification": {
+            "trade": "general",
+            "trade_confidence": 0.95,
+            "work_type": "inspection",
+            "work_type_confidence": 0.8,
+            "complexity": "moderate",
+            "complexity_confidence": 0.75
+          },
+          "cost_strategy": {
+            "strategy": "llm_reasoning",
+            "confidence": 0.8,
+            "reasoning": {
+              "reason": "Long description requires detailed analysis"
+            }
+          }
+        },
+        "classification": {
+          "trade": "painting",
+          "trade_confidence": 0.95,
+          "work_type": "monitoring",
+          "work_type_confidence": 0.9,
+          "complexity": "moderate",
+          "complexity_confidence": 0.75
+        },
+        "cost_strategy": "llm_reasoning",
+        "grouped_with": [],
+        "validation_status": "pending",
+        "data_quality_score": 0.96,
+        "data_quality_issues": [],
+        "severity_confidence": 0.7,
+        "action_confidence": 0.7,
+        "action_priority": 1,
+        "standard_subcategory": null,
+        "category_confidence": 0.75,
+        "urgency_score": 6.5,
+        "complexity_factor": 6.0,
+        "requires_specialized_labor": false,
+        "is_grouped": false,
+        "strategy_confidence": 0.8,
+        "strategy_reasoning": {
+          "reason": "Long description requires detailed analysis"
+        }
+      },
+      "estimation_method": "ai",
+      "confidence": {
+        "overall": 65.8,
+        "breakdown": {
+          "description_completeness": 95.0,
+          "has_measurements": 50.0,
+          "has_photos": 60.0,
+          "has_location": 30.0,
+          "database_match": 50.0,
+          "market_data_availability": 75.0,
+          "estimate_range_quality": 50.0,
+          "reasoning_quality": 90.0,
+          "age_uncertainty": 60.0,
+          "access_difficulty": 75.0,
+          "hidden_damage_risk": 85.0
+        },
+        "recommendation": "Fair - Estimate has moderate uncertainties; consider professional inspection",
+        "weak_dimensions": [
+          {
+            "dimension": "has_location",
+            "score": 30.0,
+            "improvement_tip": "Specify exact location (e.g., 'southeast corner of bedroom 2')"
+          },
+          {
+            "dimension": "has_measurements",
+            "score": 50.0,
+            "improvement_tip": "Include measurements (length, width, area affected)"
+          },
+          {
+            "dimension": "database_match",
+            "score": 50.0,
+            "improvement_tip": "Need more specific component identification"
+          },
+          {
+            "dimension": "estimate_range_quality",
+            "score": 50.0,
+            "improvement_tip": "Cost range may be too wide or too narrow"
+          }
+        ],
+        "inspection_needed": false,
+        "manual_review_needed": true
+      },
+      "validation": {
+        "valid": false,
+        "needs_review": true,
+        "quality_score": 95,
+        "errors": [
+          "Total: Range ratio 5.00x exceeds Phase 1 limit of 3.0x ($1100-$5500). Reduce range or lower confidence score.",
+          "Confidence score 30 out of valid range [0, 1]"
+        ],
+        "warnings": [
+          "Cost range very wide (ratio 19.5:1). Indicates high uncertainty or insufficient information.",
+          "Very detailed reasoning despite low confidence",
+          "Range too wide: 19.5x - capped to 5x",
+          "Auto-corrected inverted min/max ranges",
+          "Auto-corrected component sum",
+          "High confidence (>0.9) without detailed reasoning - verify accuracy",
+          "No timeline information provided",
+          "Missing field: cost",
+          "Missing field: urgency"
+        ],
+        "enhanced_validation": {
+          "passed": false,
+          "action": "flag_for_review",
+          "reason": "Total: Range ratio 5.00x exceeds Phase 1 limit of 3.0x ($1100-$5500). Reduce range or lower confidence score."
+        }
+      }
+    },
+    {
+      "item": "Central HVAC System (Unspecified Issue)",
+      "issue_description": "The description 'Th \u0308 \u0308 \u0308' and 'Th \u0308 \u0308 \u0308 Type of Systems: Central Energy Sources: Natural Gas.' is unclear and appears corrupted. Assuming a general issue with the central natural gas HVAC system.",
+      "severity": "Unknown",
+      "suggested_action": "Professional Diagnostic Inspection",
+      "estimated_low": 100,
+      "estimated_high": 500,
+      "confidence_score": 25,
+      "reasoning": "Confidence is very low due to the extremely vague and corrupted issue description. The low end ($100) covers a basic diagnostic service call by a TACL-certified HVAC technician (1-2 hours @ $85-150/hr) to identify the problem. The high end ($5,500) represents a potential major component replacement, such as a new furnace (if the natural gas system is failing, $2,500-5,000) or a new AC condenser ($2,500-5,500), including labor (10-20 hours @ $85-150/hr) and materials. This estimate does not include a full system replacement which could be significantly higher. A permit ($50-150) may be required for major component replacements.",
+      "assumptions": [
+        "The corrupted text refers to a general issue with the central HVAC system.",
+        "The system includes both a central AC unit and a natural gas furnace.",
+        "The issue is not a simple user error (e.g., thermostat off or circuit breaker tripped).",
+        "The property has standard residential HVAC equipment.",
+        "The estimate covers diagnosis and potential repair/replacement of a single major component."
+      ],
+      "risk_factors": [
+        "The actual issue could be a complete system failure requiring full replacement ($5,000-$12,000).",
+        "Hidden issues like ductwork problems, refrigerant leaks, or electrical faults could be present, increasing costs.",
+        "Mold growth in the air handler or ductwork is common in Houston's humidity if the system has been malfunctioning.",
+        "Peak season demand (summer) could increase costs and extend the timeline for repairs.",
+        "If the system uses R-22 refrigerant, replacement is strongly recommended due to phase-out."
+      ],
+      "original_issue": {
+        "id": "III. HEATING, VENTILATION AND AIR CONDITIONING SYSTEMS_27",
+        "section": "III. HEATING, VENTILATION AND AIR CONDITIONING SYSTEMS",
+        "subsection": "",
+        "status": "I",
+        "priority": "info",
+        "title": "th \u0308 \u0308 \u0308",
+        "description": "Th \u0308 \u0308 \u0308 Type of Systems: Central Energy Sources: Natural Gas.",
+        "page_numbers": [
+          24
+        ],
+        "estimated_cost": null,
+        "severity": "unknown",
+        "suggested_action": "",
+        "standard_category": "HVAC",
+        "standard_severity": "high",
+        "standard_action": "unknown",
+        "extracted_attributes": {},
+        "enrichment_metadata": {
+          "component_taxonomy": {
+            "category": "HVAC",
+            "subcategory": null,
+            "confidence": 0.95,
+            "original_item": "Page 33 of 34"
+          },
+          "attributes": {
+            "locations": [
+              "den",
+              "gate"
+            ],
+            "damage_types": [
+              "missing"
+            ]
+          },
+          "property": {
+            "address": "1\n 18559 Denise Dale Ln, Houston, TX 77084",
+            "total_pages": 35,
+            "inspection_date": "Saturday, August 16, 2025"
+          },
+          "urgency_score": 6.0,
+          "complexity_factor": 5.0,
+          "specialized_labor": false,
+          "classification": {
+            "trade": "general",
+            "trade_confidence": 0.95,
+            "work_type": "inspection",
+            "work_type_confidence": 0.8,
+            "complexity": "moderate",
+            "complexity_confidence": 0.75
+          },
+          "cost_strategy": {
+            "strategy": "llm_reasoning",
+            "confidence": 0.8,
+            "reasoning": {
+              "reason": "Long description requires detailed analysis"
+            }
+          }
+        },
+        "classification": {
+          "trade": "hvac",
+          "trade_confidence": 0.95,
+          "work_type": "repair",
+          "work_type_confidence": 0.5,
+          "complexity": "complex",
+          "complexity_confidence": 0.8
+        },
+        "cost_strategy": "llm_reasoning",
+        "grouped_with": [],
+        "validation_status": "pending",
+        "data_quality_score": 0.6199999999999999,
+        "data_quality_issues": [
+          "Text has severe encoding issues: Combining diacritical mark without base character"
+        ],
+        "severity_confidence": 0.7999999999999999,
+        "action_confidence": 0.0,
+        "action_priority": 0,
+        "standard_subcategory": null,
+        "category_confidence": 0.65,
+        "urgency_score": 8.0,
+        "complexity_factor": 7.5,
+        "requires_specialized_labor": true,
+        "is_grouped": false,
+        "strategy_confidence": 0.85,
+        "strategy_reasoning": {
+          "reason": "High complexity requires contextual reasoning"
+        }
+      },
+      "estimation_method": "ai",
+      "confidence": {
+        "overall": 62.5,
+        "breakdown": {
+          "description_completeness": 70.0,
+          "has_measurements": 50.0,
+          "has_photos": 60.0,
+          "has_location": 30.0,
+          "database_match": 50.0,
+          "market_data_availability": 75.0,
+          "estimate_range_quality": 50.0,
+          "reasoning_quality": 100.0,
+          "age_uncertainty": 60.0,
+          "access_difficulty": 75.0,
+          "hidden_damage_risk": 85.0
+        },
+        "recommendation": "Fair - Estimate has moderate uncertainties; consider professional inspection",
+        "weak_dimensions": [
+          {
+            "dimension": "has_location",
+            "score": 30.0,
+            "improvement_tip": "Specify exact location (e.g., 'southeast corner of bedroom 2')"
+          },
+          {
+            "dimension": "has_measurements",
+            "score": 50.0,
+            "improvement_tip": "Include measurements (length, width, area affected)"
+          },
+          {
+            "dimension": "database_match",
+            "score": 50.0,
+            "improvement_tip": "Need more specific component identification"
+          },
+          {
+            "dimension": "estimate_range_quality",
+            "score": 50.0,
+            "improvement_tip": "Cost range may be too wide or too narrow"
+          }
+        ],
+        "inspection_needed": false,
+        "manual_review_needed": true
+      },
+      "validation": {
+        "valid": false,
+        "needs_review": true,
+        "quality_score": 75,
+        "errors": [
+          "Invalid severity: Unknown (must be one of ['Low', 'Medium', 'High', 'Critical', 'Informational'])",
+          "Total: Range ratio 5.00x exceeds Phase 1 limit of 3.0x ($100-$500). Reduce range or lower confidence score.",
+          "Confidence score 25 out of valid range [0, 1]"
+        ],
+        "warnings": [
+          "Cost range very wide (ratio 55.0:1). Indicates high uncertainty or insufficient information.",
+          "Very detailed reasoning despite low confidence",
+          "Range too wide: 55.0x - capped to 5x",
+          "Auto-corrected inverted min/max ranges",
+          "Auto-corrected component sum",
+          "High confidence (>0.9) without detailed reasoning - verify accuracy",
+          "No timeline information provided",
+          "Missing field: cost",
+          "Missing field: urgency"
+        ],
+        "enhanced_validation": {
+          "passed": false,
+          "action": "flag_for_review",
+          "reason": "Total: Range ratio 5.00x exceeds Phase 1 limit of 3.0x ($100-$500). Reduce range or lower confidence score."
+        }
+      }
+    }
+  ]
+}
